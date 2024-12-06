@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://de4gpumi3j28y"]
+
+[ext_resource type="Texture2D" uid="uid://ca24xxub30mgv" path="res://design/lore/village/Farm/Tiny Wonder Farm Free/objects&items/rocktest.png" id="1_7up5b"]
+[ext_resource type="Script" path="res://assets/scr/world/object/mining/scr_rock.gd" id="1_u1uw0"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_msn0u"]
+size = Vector2(13, 12)
+
+[node name="rock" type="StaticBody2D"]
+z_index = 4
+script = ExtResource("1_u1uw0")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_7up5b")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, 0)
+shape = SubResource("RectangleShape2D_msn0u")

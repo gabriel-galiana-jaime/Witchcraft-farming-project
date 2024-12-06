@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://blsbcugvhac2n"]
+
+[ext_resource type="Texture2D" uid="uid://b1jkoxc5kmdky" path="res://design/art-style-section/art-concept/ui/cursortest1.png" id="1_1nahj"]
+
+[node name="cursor" type="Sprite2D"]
+z_index = 7
+position = Vector2(-104, 72)
+texture = ExtResource("1_1nahj")
+region_rect = Rect2(15.625, 80.175, 16, 16)

@@ -1,0 +1,45 @@
+{
+	"map":{
+		"farm":{
+			"camera":{
+				"offset_x_+":207.6439,
+				"offset_x_-":-392.8997,
+				"offset_y_+":51.54758,
+				"offset_y_-":367.5843,
+			},
+			"objects":{
+				"obj0":{
+					"posx":-8,
+					"posy":4,
+					"type":"testobj1",
+				},
+			"obj1":{
+					"posx":-5,
+					"posy":2,
+					"type":"testobj1",
+				},
+				"obj2":{
+					"posx":-6,
+					"posy":2,
+					"type":"testobj1",
+				},
+				"obj3":{
+					"posx":9,
+					"posy":-1,
+					"type":"rock1",
+				},
+				"obj4":{
+					"posx":-6,
+					"posy":14,
+					"type":"rock1",
+				},
+				"obj4":{
+					"posx":-19,
+					"posy":13,
+					"type":"rock1",
+				},
+			}
+		},
+	}
+	
+}

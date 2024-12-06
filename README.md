@@ -1,2 +1,2 @@
-# Witchcraft-farming-project
- Free/Libre game in development, only a student project.
+# Art-Plastique-1A-Witchcraft-farming-project
+ 

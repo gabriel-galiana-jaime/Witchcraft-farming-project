@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://b5lijexb5j5h8"]
+
+[ext_resource type="PackedScene" uid="uid://de4gpumi3j28y" path="res://assets/scenes/scene_obj/objects/foraging/rock.tscn" id="1_fcy84"]
+
+[node name="Node" type="Node"]
+
+[node name="rock" parent="." instance=ExtResource("1_fcy84")]

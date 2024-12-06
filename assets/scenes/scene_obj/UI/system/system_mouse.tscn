@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://d0erdrnnpk5kf"]
+
+[ext_resource type="Texture2D" uid="uid://bnor53qw8kf1f" path="res://design/art-style-section/references/ui/mouse/Triangle Mouse icon 1.png" id="1_pfc62"]
+[ext_resource type="Texture2D" uid="uid://capiqd5vacdp7" path="res://design/art-style-section/art-concept/crop1.png" id="2_0v4lk"]
+[ext_resource type="Script" path="res://assets/scr/system/scr_system_mouse.gd" id="2_d6db6"]
+
+[node name="system_mouse" type="Sprite2D"]
+z_index = 15
+position = Vector2(-22, 4)
+texture = ExtResource("1_pfc62")
+script = ExtResource("2_d6db6")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(-17, -11)
+scale = Vector2(0.0625, 0.125)
+texture = ExtResource("2_0v4lk")

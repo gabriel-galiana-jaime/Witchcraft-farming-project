@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://cj1oocq5gb4md"]
+
+[ext_resource type="Texture2D" uid="uid://capiqd5vacdp7" path="res://design/art-style-section/art-concept/crop1.png" id="1_jnsk6"]
+[ext_resource type="Script" path="res://assets/scr/world/object/tets-debug/testobj_1.gd" id="2_16g1x"]
+
+[node name="testobj1" type="Sprite2D"]
+z_index = 7
+texture = ExtResource("1_jnsk6")
+script = ExtResource("2_16g1x")

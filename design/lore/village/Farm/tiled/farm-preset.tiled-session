@@ -1,0 +1,51 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "farmmap.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "Tileset1.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 4
+        },
+        "farmmap.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 192.66666666666666,
+                "y": 192.33333333333331
+            }
+        },
+        "tileset2_st.tsx": {
+            "scaleInDock": 4,
+            "scaleInEditor": 4
+        }
+    },
+    "last.exportedFilePath": "/home/gabriel/Documents/GitHub/Art-Plastique-1A-Witchcraft-farming-project/design/lore/village/Farm/tiled/export",
+    "last.imagePath": "/home/gabriel/Documents/GitHub/Art-Plastique-1A-Witchcraft-farming-project/design/art-style-section/references",
+    "map.fixedSize": false,
+    "map.lastUsedExportFilter": "Fichiers de Scène de Godot 4 (*.tscn)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "openFiles": [
+        "Tileset1.tsx",
+        "farmmap.tmx",
+        "tileset2_st.tsx"
+    ],
+    "project": "farm-preset.tiled-project",
+    "recentFiles": [
+        "Tileset1.tsx",
+        "tileset2_st.tsx",
+        "farmmap.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}
