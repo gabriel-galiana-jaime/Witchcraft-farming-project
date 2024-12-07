@@ -1,6 +1,6 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1733488093
-export_presets.cfg::TextFile::-1::1733488016::0::1::::<><>::
+::res://::1733569198
+export_presets.cfg::TextFile::-1::1733488172::0::1::::<><>::
 icon.png::CompressedTexture2D::2964266169511873219::1733255588::1733487596::1::::<><>::
 icon.svg::CompressedTexture2D::5659771674146952085::1733255588::1733487596::1::::<><>::
 preview.png::CompressedTexture2D::5430747326413886135::1733255588::1733487596::1::::<><>::
@@ -14,10 +14,10 @@ fullscreen_on_input.tscn::PackedScene::4041056210652979869::1733255588::0::1::::
 Fichier texte.txt::TextFile::-1::1733255588::0::1::::<><>::
 ::res://assets/ressources/::1733255588
 ::res://assets/ressources/jsons/::1733255588
-::res://assets/ressources/jsons/save/::1733486376
-current_game_file.json::JSON::-1::1733486376::0::1::::<><>::
-::res://assets/ressources/tileset/::1733487598
-tile_set_editable.tres::TileSet::4198497811983115847::1733487598::0::1::::<><>::uid://cr2xxtoifwwdx::::res://design/lore/village/Farm/Tiny Wonder Farm Free/tilemaps/spring farm tilemap.png<>uid://bmd8y3fu07c1f::::res://design/lore/village/Farm/Tiny Wonder Farm Free/tilemaps/spring farm tilemap2.png<>uid://byiqtgnx2ib67::::res://design/lore/village/Farm/Tiny Wonder Farm Free/tilemaps/farm bridges free.png<>uid://1wjbhexyxjlc::::res://design/lore/village/Farm/Tiny Wonder Farm Free/tilemaps/farm inside free.png
+::res://assets/ressources/jsons/save/::1733488160
+current_game_file.json::JSON::-1::1733488160::0::1::::<><>::
+::res://assets/ressources/tileset/::1733488151
+tile_set_editable.tres::TileSet::4198497811983115847::1733488151::0::1::::<><>::uid://cr2xxtoifwwdx::::res://design/lore/village/Farm/Tiny Wonder Farm Free/tilemaps/spring farm tilemap.png<>uid://bmd8y3fu07c1f::::res://design/lore/village/Farm/Tiny Wonder Farm Free/tilemaps/spring farm tilemap2.png<>uid://byiqtgnx2ib67::::res://design/lore/village/Farm/Tiny Wonder Farm Free/tilemaps/farm bridges free.png<>uid://1wjbhexyxjlc::::res://design/lore/village/Farm/Tiny Wonder Farm Free/tilemaps/farm inside free.png
 ::res://assets/scenes/::1733332169
 ::res://assets/scenes/preloads/::1733255588
 ::res://assets/scenes/preloads/object/::1733255588
@@ -26,8 +26,8 @@ nps_testobj1.tscn::PackedScene::6900145829371319123::1733255588::0::1::::<><>::u
 nps_rock.tscn::PackedScene::4515296201925822223::1733255588::0::1::::<><>::uid://de4gpumi3j28y::::res://assets/scenes/scene_obj/objects/foraging/rock.tscn
 ::res://assets/scenes/scene_gameplay/::1733255588
 Fichier texte.txt::TextFile::-1::1733255588::0::1::::<><>::
-::res://assets/scenes/scene_gameplay/outside/::1733488056
-sce_farm.tscn::PackedScene::7178451746084045092::1733488056::0::1::::<><>::res://assets/scr/world/scr_world_prefab.gd<>uid://c8qm5yf4cj5jy::::res://assets/scenes/scene_obj/player-related/player_obj.tscn<>uid://b021v7i5uf42v::::res://assets/ressources/tileset/tile_set_editable.tres<>uid://blsbcugvhac2n::::res://assets/scenes/scene_obj/UI/system/cursor.tscn<>uid://d0erdrnnpk5kf::::res://assets/scenes/scene_obj/UI/system/system_mouse.tscn<>uid://cg0th21xylda::::res://assets/scenes/UI/control_main_ui_gameplay.tscn
+::res://assets/scenes/scene_gameplay/outside/::1733488163
+sce_farm.tscn::PackedScene::7178451746084045092::1733488163::0::1::::<><>::res://assets/scr/world/scr_world_prefab.gd<>uid://c8qm5yf4cj5jy::::res://assets/scenes/scene_obj/player-related/player_obj.tscn<>uid://b021v7i5uf42v::::res://assets/ressources/tileset/tile_set_editable.tres<>uid://blsbcugvhac2n::::res://assets/scenes/scene_obj/UI/system/cursor.tscn<>uid://d0erdrnnpk5kf::::res://assets/scenes/scene_obj/UI/system/system_mouse.tscn<>uid://cg0th21xylda::::res://assets/scenes/UI/control_main_ui_gameplay.tscn
 ::res://assets/scenes/scene_gameplay/testscene/::1733255588
 testscene_1.tscn::PackedScene::5701591183986931917::1733255588::0::1::::<><>::res://assets/scr/test/tile-experiment/scr_testscene_1_random_tile_support.gd<>uid://b021v7i5uf42v::::res://assets/ressources/tileset/tile_set_editable.tres
 ::res://assets/scenes/scene_gameplay/UI/::1733255588
