@@ -11,7 +11,7 @@
 				"obj0":{
 					"posx":-8,
 					"posy":4,
-					"type":"rock1",
+					"type":"testobj1",
 				},
 			"obj1":{
 					"posx":-5,

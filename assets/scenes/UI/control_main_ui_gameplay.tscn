@@ -1,10 +1,14 @@
-[gd_scene load_steps=2 format=3 uid="uid://cg0th21xylda"]
+[gd_scene load_steps=4 format=3 uid="uid://cg0th21xylda"]
 
+[ext_resource type="Script" path="res://assets/scr/system/inventory/scr_control_main_ui_gameplay.gd" id="1_nffjo"]
 [ext_resource type="Texture2D" uid="uid://dqy76t1wqnpr" path="res://design/UI/selected/ui_box1.png" id="1_rs1ch"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xwkr6"]
 
 [node name="Control_main_Ui" type="Node2D"]
 z_index = 14
 position = Vector2(-225, 145)
+script = ExtResource("1_nffjo")
 
 [node name="gameplay_bar" type="Node2D" parent="."]
 position = Vector2(0, 21)
@@ -15,42 +19,159 @@ position = Vector2(-82, 90)
 scale = Vector2(0.8, 0.8)
 texture = ExtResource("1_rs1ch")
 
+[node name="icon" type="Sprite2D" parent="gameplay_bar/box_obj-4"]
+
+[node name="Area2D" type="Area2D" parent="gameplay_bar/box_obj-4"]
+z_index = 7
+position = Vector2(-0.101158, 0.216744)
+scale = Vector2(1.13442, 1.15833)
+collision_layer = 32
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="gameplay_bar/box_obj-4/Area2D"]
+shape = SubResource("RectangleShape2D_xwkr6")
+
 [node name="box_obj-3" type="Sprite2D" parent="gameplay_bar"]
 position = Vector2(-61.5, 90)
 scale = Vector2(0.8, 0.8)
 texture = ExtResource("1_rs1ch")
+
+[node name="icon" type="Sprite2D" parent="gameplay_bar/box_obj-3"]
+
+[node name="Area2D" type="Area2D" parent="gameplay_bar/box_obj-3"]
+z_index = 7
+position = Vector2(0.285425, 0.216744)
+scale = Vector2(1.13442, 1.15833)
+collision_layer = 32
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="gameplay_bar/box_obj-3/Area2D"]
+shape = SubResource("RectangleShape2D_xwkr6")
 
 [node name="box_obj-2" type="Sprite2D" parent="gameplay_bar"]
 position = Vector2(-41, 90)
 scale = Vector2(0.8, 0.8)
 texture = ExtResource("1_rs1ch")
 
+[node name="icon" type="Sprite2D" parent="gameplay_bar/box_obj-2"]
+
+[node name="Area2D" type="Area2D" parent="gameplay_bar/box_obj-2"]
+z_index = 7
+position = Vector2(0.285425, 0.216744)
+scale = Vector2(1.13442, 1.15833)
+collision_layer = 32
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="gameplay_bar/box_obj-2/Area2D"]
+shape = SubResource("RectangleShape2D_xwkr6")
+
 [node name="box_obj-1" type="Sprite2D" parent="gameplay_bar"]
 position = Vector2(-20.5, 90)
 scale = Vector2(0.8, 0.8)
 texture = ExtResource("1_rs1ch")
+
+[node name="icon" type="Sprite2D" parent="gameplay_bar/box_obj-1"]
+
+[node name="Area2D" type="Area2D" parent="gameplay_bar/box_obj-1"]
+z_index = 7
+position = Vector2(0.285425, 0.216744)
+scale = Vector2(1.13442, 1.15833)
+collision_layer = 32
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="gameplay_bar/box_obj-1/Area2D"]
+shape = SubResource("RectangleShape2D_xwkr6")
 
 [node name="box_obj0" type="Sprite2D" parent="gameplay_bar"]
 position = Vector2(0, 90)
 scale = Vector2(0.8, 0.8)
 texture = ExtResource("1_rs1ch")
 
+[node name="icon" type="Sprite2D" parent="gameplay_bar/box_obj0"]
+z_index = 1
+position = Vector2(0, -1.22833)
+
+[node name="Area2D" type="Area2D" parent="gameplay_bar/box_obj0"]
+z_index = 7
+position = Vector2(0.285425, 0.216744)
+scale = Vector2(1.13442, 1.15833)
+collision_layer = 32
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="gameplay_bar/box_obj0/Area2D"]
+shape = SubResource("RectangleShape2D_xwkr6")
+
 [node name="box_obj1" type="Sprite2D" parent="gameplay_bar"]
 position = Vector2(20.5, 90)
 scale = Vector2(0.8, 0.8)
 texture = ExtResource("1_rs1ch")
+
+[node name="icon" type="Sprite2D" parent="gameplay_bar/box_obj1"]
+
+[node name="Area2D" type="Area2D" parent="gameplay_bar/box_obj1"]
+z_index = 7
+position = Vector2(0.285425, 0.216744)
+scale = Vector2(1.13442, 1.15833)
+collision_layer = 32
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="gameplay_bar/box_obj1/Area2D"]
+shape = SubResource("RectangleShape2D_xwkr6")
 
 [node name="box_obj2" type="Sprite2D" parent="gameplay_bar"]
 position = Vector2(41, 90)
 scale = Vector2(0.8, 0.8)
 texture = ExtResource("1_rs1ch")
 
+[node name="icon" type="Sprite2D" parent="gameplay_bar/box_obj2"]
+
+[node name="Area2D" type="Area2D" parent="gameplay_bar/box_obj2"]
+z_index = 7
+position = Vector2(0.285425, 0.216744)
+scale = Vector2(1.13442, 1.15833)
+collision_layer = 32
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="gameplay_bar/box_obj2/Area2D"]
+shape = SubResource("RectangleShape2D_xwkr6")
+
 [node name="box_obj3" type="Sprite2D" parent="gameplay_bar"]
 position = Vector2(61.5, 90)
 scale = Vector2(0.8, 0.8)
 texture = ExtResource("1_rs1ch")
 
+[node name="icon" type="Sprite2D" parent="gameplay_bar/box_obj3"]
+
+[node name="Area2D" type="Area2D" parent="gameplay_bar/box_obj3"]
+z_index = 7
+position = Vector2(0.285425, 0.216744)
+scale = Vector2(1.13442, 1.15833)
+collision_layer = 32
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="gameplay_bar/box_obj3/Area2D"]
+shape = SubResource("RectangleShape2D_xwkr6")
+
 [node name="box_obj4" type="Sprite2D" parent="gameplay_bar"]
 position = Vector2(82, 90)
 scale = Vector2(0.8, 0.8)
 texture = ExtResource("1_rs1ch")
+
+[node name="icon" type="Sprite2D" parent="gameplay_bar/box_obj4"]
+
+[node name="Area2D" type="Area2D" parent="gameplay_bar/box_obj4"]
+z_index = 7
+position = Vector2(0.285425, 0.216744)
+scale = Vector2(1.13442, 1.15833)
+collision_layer = 32
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="gameplay_bar/box_obj4/Area2D"]
+shape = SubResource("RectangleShape2D_xwkr6")
+
+[node name="box_obj5" type="Sprite2D" parent="gameplay_bar"]
+position = Vector2(102.5, 90)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("1_rs1ch")
+
+[node name="icon" type="Sprite2D" parent="gameplay_bar/box_obj5"]
+
+[node name="Area2D" type="Area2D" parent="gameplay_bar/box_obj5"]
+z_index = 7
+position = Vector2(0.285425, 0.216744)
+scale = Vector2(1.13442, 1.15833)
+collision_layer = 32
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="gameplay_bar/box_obj5/Area2D"]
+shape = SubResource("RectangleShape2D_xwkr6")

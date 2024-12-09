@@ -40,7 +40,7 @@ func load_world_setting(map_section,data):
 	data = data["map"][map_section]
 	#Camera: left,right,up,down
 	camera_offsets = Vector4(data["camera"]["offset_x_-"],data["camera"]["offset_x_+"],data["camera"]["offset_y_-"],data["camera"]["offset_y_+"])
-	print("Camera data is: ","Offset:",camera_offsets)
+	#print("Camera data is: ","Offset:",camera_offsets)
 	#end camera
 
 
@@ -67,7 +67,7 @@ func round_to_multiple_of_16(number: float):
 func _process(delta: float) -> void:
 	ref_Camera.position = ref_player.position
 	runtime_camera()
-	print(ref_Camera.position)
+	#print(ref_Camera.position)
 	pass
 	#print("The object position ", object_position, " rounded to the nearest tile position is: ", rounded_position)
 
