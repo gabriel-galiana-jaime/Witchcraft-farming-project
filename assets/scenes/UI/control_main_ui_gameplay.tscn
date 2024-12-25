@@ -1,9 +1,29 @@
-[gd_scene load_steps=4 format=3 uid="uid://cg0th21xylda"]
+[gd_scene load_steps=22 format=3 uid="uid://cg0th21xylda"]
 
 [ext_resource type="Script" path="res://assets/scr/system/inventory/scr_control_main_ui_gameplay.gd" id="1_nffjo"]
 [ext_resource type="Texture2D" uid="uid://dqy76t1wqnpr" path="res://design/UI/selected/ui_box1.png" id="1_rs1ch"]
+[ext_resource type="Texture2D" uid="uid://bey3appwpbp2a" path="res://design/UI/selected/numbers/number1.png" id="3_jbu1o"]
+[ext_resource type="PackedScene" uid="uid://k8oylu3r3rb7" path="res://assets/scenes/editor/new_nodes/double_number_display.tscn" id="4_uc3my"]
+[ext_resource type="Texture2D" uid="uid://l7gsqcboik6k" path="res://design/UI/selected/numbers/number2.png" id="4_w3or7"]
+[ext_resource type="Texture2D" uid="uid://d0qww31vq5722" path="res://design/UI/selected/numbers/number3.png" id="5_6f2xw"]
+[ext_resource type="Texture2D" uid="uid://b58wk8c37itwh" path="res://design/UI/selected/numbers/number4.png" id="6_ctjyl"]
+[ext_resource type="Texture2D" uid="uid://dt8x2kf7yraqm" path="res://design/UI/selected/numbers/number5.png" id="7_5n4am"]
+[ext_resource type="Texture2D" uid="uid://d0qeol0a5iwrs" path="res://design/UI/selected/numbers/number6.png" id="8_cwj1y"]
+[ext_resource type="Texture2D" uid="uid://xxmrhu1gi515" path="res://design/UI/selected/numbers/number7.png" id="9_qjhsr"]
+[ext_resource type="Texture2D" uid="uid://2jjpmdni0tdl" path="res://design/UI/selected/numbers/number8.png" id="10_mctrl"]
+[ext_resource type="Texture2D" uid="uid://dfh0uj1edevhe" path="res://design/UI/selected/numbers/number9.png" id="11_u6ejf"]
+[ext_resource type="Texture2D" uid="uid://bdq5qeark66qf" path="res://design/UI/selected/numbers/number10.png" id="12_s4wfl"]
+[ext_resource type="Texture2D" uid="uid://bcqa3sxigkocs" path="res://design/UI/selected/main-ui/inventory.png" id="13_0vlfn"]
+[ext_resource type="Texture2D" uid="uid://capiqd5vacdp7" path="res://design/art-style-section/art-concept/crop1.png" id="14_muc8s"]
+[ext_resource type="Texture2D" uid="uid://ca24xxub30mgv" path="res://design/lore/village/Farm/Tiny Wonder Farm Free/objects&items/rocktest.png" id="14_ykoar"]
+[ext_resource type="Texture2D" uid="uid://cpbqikocmr7he" path="res://design/UI/selected/main-ui/inventory_delete_1.png" id="17_1o4mo"]
+[ext_resource type="Texture2D" uid="uid://bq5ojalkdhjd3" path="res://design/UI/selected/main-ui/inventory_delete_3.png" id="18_hqnor"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xwkr6"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_r2n5l"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_r6e1q"]
 
 [node name="Control_main_Ui" type="Node2D"]
 z_index = 14
@@ -11,6 +31,7 @@ position = Vector2(-225, 145)
 script = ExtResource("1_nffjo")
 
 [node name="gameplay_bar" type="Node2D" parent="."]
+visible = false
 position = Vector2(0, 21)
 scale = Vector2(0.865, 0.865)
 
@@ -30,6 +51,14 @@ collision_layer = 32
 [node name="CollisionShape2D" type="CollisionShape2D" parent="gameplay_bar/box_obj-4/Area2D"]
 shape = SubResource("RectangleShape2D_xwkr6")
 
+[node name="num" type="Sprite2D" parent="gameplay_bar/box_obj-4"]
+z_index = 2
+position = Vector2(-10.2168, -8.45375)
+scale = Vector2(0.333997, 0.257742)
+texture = ExtResource("3_jbu1o")
+
+[node name="double_number_display" parent="gameplay_bar/box_obj-4" instance=ExtResource("4_uc3my")]
+
 [node name="box_obj-3" type="Sprite2D" parent="gameplay_bar"]
 position = Vector2(-61.5, 90)
 scale = Vector2(0.8, 0.8)
@@ -45,6 +74,14 @@ collision_layer = 32
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="gameplay_bar/box_obj-3/Area2D"]
 shape = SubResource("RectangleShape2D_xwkr6")
+
+[node name="num" type="Sprite2D" parent="gameplay_bar/box_obj-3"]
+z_index = 2
+position = Vector2(-10.2168, -8.45375)
+scale = Vector2(0.333997, 0.257742)
+texture = ExtResource("4_w3or7")
+
+[node name="double_number_display" parent="gameplay_bar/box_obj-3" instance=ExtResource("4_uc3my")]
 
 [node name="box_obj-2" type="Sprite2D" parent="gameplay_bar"]
 position = Vector2(-41, 90)
@@ -62,6 +99,14 @@ collision_layer = 32
 [node name="CollisionShape2D" type="CollisionShape2D" parent="gameplay_bar/box_obj-2/Area2D"]
 shape = SubResource("RectangleShape2D_xwkr6")
 
+[node name="num" type="Sprite2D" parent="gameplay_bar/box_obj-2"]
+z_index = 2
+position = Vector2(-10.2168, -8.45375)
+scale = Vector2(0.333997, 0.257742)
+texture = ExtResource("5_6f2xw")
+
+[node name="double_number_display" parent="gameplay_bar/box_obj-2" instance=ExtResource("4_uc3my")]
+
 [node name="box_obj-1" type="Sprite2D" parent="gameplay_bar"]
 position = Vector2(-20.5, 90)
 scale = Vector2(0.8, 0.8)
@@ -78,6 +123,14 @@ collision_layer = 32
 [node name="CollisionShape2D" type="CollisionShape2D" parent="gameplay_bar/box_obj-1/Area2D"]
 shape = SubResource("RectangleShape2D_xwkr6")
 
+[node name="num" type="Sprite2D" parent="gameplay_bar/box_obj-1"]
+z_index = 2
+position = Vector2(-10.2168, -8.45375)
+scale = Vector2(0.333997, 0.257742)
+texture = ExtResource("6_ctjyl")
+
+[node name="double_number_display" parent="gameplay_bar/box_obj-1" instance=ExtResource("4_uc3my")]
+
 [node name="box_obj0" type="Sprite2D" parent="gameplay_bar"]
 position = Vector2(0, 90)
 scale = Vector2(0.8, 0.8)
@@ -85,7 +138,6 @@ texture = ExtResource("1_rs1ch")
 
 [node name="icon" type="Sprite2D" parent="gameplay_bar/box_obj0"]
 z_index = 1
-position = Vector2(0, -1.22833)
 
 [node name="Area2D" type="Area2D" parent="gameplay_bar/box_obj0"]
 z_index = 7
@@ -95,6 +147,14 @@ collision_layer = 32
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="gameplay_bar/box_obj0/Area2D"]
 shape = SubResource("RectangleShape2D_xwkr6")
+
+[node name="num" type="Sprite2D" parent="gameplay_bar/box_obj0"]
+z_index = 2
+position = Vector2(-10.2168, -8.45375)
+scale = Vector2(0.333997, 0.257742)
+texture = ExtResource("7_5n4am")
+
+[node name="double_number_display" parent="gameplay_bar/box_obj0" instance=ExtResource("4_uc3my")]
 
 [node name="box_obj1" type="Sprite2D" parent="gameplay_bar"]
 position = Vector2(20.5, 90)
@@ -112,6 +172,14 @@ collision_layer = 32
 [node name="CollisionShape2D" type="CollisionShape2D" parent="gameplay_bar/box_obj1/Area2D"]
 shape = SubResource("RectangleShape2D_xwkr6")
 
+[node name="num" type="Sprite2D" parent="gameplay_bar/box_obj1"]
+z_index = 2
+position = Vector2(-10.2168, -8.45375)
+scale = Vector2(0.333997, 0.257742)
+texture = ExtResource("8_cwj1y")
+
+[node name="double_number_display" parent="gameplay_bar/box_obj1" instance=ExtResource("4_uc3my")]
+
 [node name="box_obj2" type="Sprite2D" parent="gameplay_bar"]
 position = Vector2(41, 90)
 scale = Vector2(0.8, 0.8)
@@ -127,6 +195,14 @@ collision_layer = 32
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="gameplay_bar/box_obj2/Area2D"]
 shape = SubResource("RectangleShape2D_xwkr6")
+
+[node name="num" type="Sprite2D" parent="gameplay_bar/box_obj2"]
+z_index = 2
+position = Vector2(-10.2168, -8.45375)
+scale = Vector2(0.333997, 0.257742)
+texture = ExtResource("9_qjhsr")
+
+[node name="double_number_display" parent="gameplay_bar/box_obj2" instance=ExtResource("4_uc3my")]
 
 [node name="box_obj3" type="Sprite2D" parent="gameplay_bar"]
 position = Vector2(61.5, 90)
@@ -144,6 +220,14 @@ collision_layer = 32
 [node name="CollisionShape2D" type="CollisionShape2D" parent="gameplay_bar/box_obj3/Area2D"]
 shape = SubResource("RectangleShape2D_xwkr6")
 
+[node name="num" type="Sprite2D" parent="gameplay_bar/box_obj3"]
+z_index = 2
+position = Vector2(-10.2168, -8.45375)
+scale = Vector2(0.333997, 0.257742)
+texture = ExtResource("10_mctrl")
+
+[node name="double_number_display" parent="gameplay_bar/box_obj3" instance=ExtResource("4_uc3my")]
+
 [node name="box_obj4" type="Sprite2D" parent="gameplay_bar"]
 position = Vector2(82, 90)
 scale = Vector2(0.8, 0.8)
@@ -160,6 +244,14 @@ collision_layer = 32
 [node name="CollisionShape2D" type="CollisionShape2D" parent="gameplay_bar/box_obj4/Area2D"]
 shape = SubResource("RectangleShape2D_xwkr6")
 
+[node name="num" type="Sprite2D" parent="gameplay_bar/box_obj4"]
+z_index = 2
+position = Vector2(-10.2168, -8.45375)
+scale = Vector2(0.333997, 0.257742)
+texture = ExtResource("11_u6ejf")
+
+[node name="double_number_display" parent="gameplay_bar/box_obj4" instance=ExtResource("4_uc3my")]
+
 [node name="box_obj5" type="Sprite2D" parent="gameplay_bar"]
 position = Vector2(102.5, 90)
 scale = Vector2(0.8, 0.8)
@@ -175,3 +267,409 @@ collision_layer = 32
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="gameplay_bar/box_obj5/Area2D"]
 shape = SubResource("RectangleShape2D_xwkr6")
+
+[node name="num" type="Sprite2D" parent="gameplay_bar/box_obj5"]
+z_index = 2
+position = Vector2(-10.2168, -8.45375)
+scale = Vector2(0.333997, 0.257742)
+texture = ExtResource("12_s4wfl")
+
+[node name="double_number_display" parent="gameplay_bar/box_obj5" instance=ExtResource("4_uc3my")]
+
+[node name="main_menu" type="Node2D" parent="."]
+visible = false
+scale = Vector2(0.8, 0.8)
+
+[node name="inventory" type="Node2D" parent="main_menu"]
+
+[node name="base" type="Sprite2D" parent="main_menu/inventory"]
+texture = ExtResource("13_0vlfn")
+
+[node name="tiles" type="Node2D" parent="main_menu/inventory"]
+
+[node name="tile_-1" type="Sprite2D" parent="main_menu/inventory/tiles"]
+z_index = 1
+position = Vector2(-122.5, 3.75)
+texture = ExtResource("14_ykoar")
+
+[node name="double_number_display" parent="main_menu/inventory/tiles/tile_-1" instance=ExtResource("4_uc3my")]
+position = Vector2(-7.5, 6.25)
+
+[node name="tile0" type="Sprite2D" parent="main_menu/inventory/tiles"]
+position = Vector2(-121.25, -76.25)
+texture = ExtResource("14_muc8s")
+
+[node name="Area2D" type="Area2D" parent="main_menu/inventory/tiles/tile0"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="main_menu/inventory/tiles/tile0/Area2D"]
+shape = SubResource("RectangleShape2D_r2n5l")
+
+[node name="double_number_display" parent="main_menu/inventory/tiles/tile0" instance=ExtResource("4_uc3my")]
+position = Vector2(5, 6.25)
+
+[node name="tile1" type="Sprite2D" parent="main_menu/inventory/tiles"]
+position = Vector2(-95, -76.25)
+texture = ExtResource("14_muc8s")
+
+[node name="Area2D" type="Area2D" parent="main_menu/inventory/tiles/tile1"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="main_menu/inventory/tiles/tile1/Area2D"]
+shape = SubResource("RectangleShape2D_r2n5l")
+
+[node name="double_number_display" parent="main_menu/inventory/tiles/tile1" instance=ExtResource("4_uc3my")]
+position = Vector2(5, 6.25)
+
+[node name="tile2" type="Sprite2D" parent="main_menu/inventory/tiles"]
+position = Vector2(-68.75, -76.25)
+texture = ExtResource("14_muc8s")
+
+[node name="Area2D" type="Area2D" parent="main_menu/inventory/tiles/tile2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="main_menu/inventory/tiles/tile2/Area2D"]
+shape = SubResource("RectangleShape2D_r2n5l")
+
+[node name="double_number_display" parent="main_menu/inventory/tiles/tile2" instance=ExtResource("4_uc3my")]
+position = Vector2(5, 6.25)
+
+[node name="tile3" type="Sprite2D" parent="main_menu/inventory/tiles"]
+position = Vector2(-43.75, -76.25)
+texture = ExtResource("14_muc8s")
+
+[node name="Area2D" type="Area2D" parent="main_menu/inventory/tiles/tile3"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="main_menu/inventory/tiles/tile3/Area2D"]
+shape = SubResource("RectangleShape2D_r2n5l")
+
+[node name="double_number_display" parent="main_menu/inventory/tiles/tile3" instance=ExtResource("4_uc3my")]
+position = Vector2(5, 6.25)
+
+[node name="tile4" type="Sprite2D" parent="main_menu/inventory/tiles"]
+position = Vector2(-17.5, -76.25)
+texture = ExtResource("14_muc8s")
+
+[node name="Area2D" type="Area2D" parent="main_menu/inventory/tiles/tile4"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="main_menu/inventory/tiles/tile4/Area2D"]
+shape = SubResource("RectangleShape2D_r2n5l")
+
+[node name="double_number_display" parent="main_menu/inventory/tiles/tile4" instance=ExtResource("4_uc3my")]
+position = Vector2(5, 6.25)
+
+[node name="tile5" type="Sprite2D" parent="main_menu/inventory/tiles"]
+position = Vector2(8.74999, -76.25)
+texture = ExtResource("14_muc8s")
+
+[node name="Area2D" type="Area2D" parent="main_menu/inventory/tiles/tile5"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="main_menu/inventory/tiles/tile5/Area2D"]
+shape = SubResource("RectangleShape2D_r2n5l")
+
+[node name="double_number_display" parent="main_menu/inventory/tiles/tile5" instance=ExtResource("4_uc3my")]
+position = Vector2(5, 6.25)
+
+[node name="tile6" type="Sprite2D" parent="main_menu/inventory/tiles"]
+position = Vector2(36.25, -76.25)
+texture = ExtResource("14_muc8s")
+
+[node name="Area2D" type="Area2D" parent="main_menu/inventory/tiles/tile6"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="main_menu/inventory/tiles/tile6/Area2D"]
+shape = SubResource("RectangleShape2D_r2n5l")
+
+[node name="double_number_display" parent="main_menu/inventory/tiles/tile6" instance=ExtResource("4_uc3my")]
+position = Vector2(5, 6.25)
+
+[node name="tile7" type="Sprite2D" parent="main_menu/inventory/tiles"]
+position = Vector2(62.5, -76.25)
+texture = ExtResource("14_muc8s")
+
+[node name="Area2D" type="Area2D" parent="main_menu/inventory/tiles/tile7"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="main_menu/inventory/tiles/tile7/Area2D"]
+shape = SubResource("RectangleShape2D_r2n5l")
+
+[node name="double_number_display" parent="main_menu/inventory/tiles/tile7" instance=ExtResource("4_uc3my")]
+position = Vector2(5, 6.25)
+
+[node name="tile8" type="Sprite2D" parent="main_menu/inventory/tiles"]
+position = Vector2(90, -76.25)
+texture = ExtResource("14_muc8s")
+
+[node name="Area2D" type="Area2D" parent="main_menu/inventory/tiles/tile8"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="main_menu/inventory/tiles/tile8/Area2D"]
+shape = SubResource("RectangleShape2D_r2n5l")
+
+[node name="double_number_display" parent="main_menu/inventory/tiles/tile8" instance=ExtResource("4_uc3my")]
+position = Vector2(5, 6.25)
+
+[node name="tile9" type="Sprite2D" parent="main_menu/inventory/tiles"]
+position = Vector2(116.25, -76.25)
+texture = ExtResource("14_muc8s")
+
+[node name="Area2D" type="Area2D" parent="main_menu/inventory/tiles/tile9"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="main_menu/inventory/tiles/tile9/Area2D"]
+shape = SubResource("RectangleShape2D_r2n5l")
+
+[node name="double_number_display" parent="main_menu/inventory/tiles/tile9" instance=ExtResource("4_uc3my")]
+position = Vector2(5, 6.25)
+
+[node name="tile10" type="Sprite2D" parent="main_menu/inventory/tiles"]
+position = Vector2(-121.25, -48.75)
+texture = ExtResource("14_muc8s")
+
+[node name="Area2D" type="Area2D" parent="main_menu/inventory/tiles/tile10"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="main_menu/inventory/tiles/tile10/Area2D"]
+shape = SubResource("RectangleShape2D_r2n5l")
+
+[node name="double_number_display" parent="main_menu/inventory/tiles/tile10" instance=ExtResource("4_uc3my")]
+position = Vector2(5, 6.25)
+
+[node name="tile11" type="Sprite2D" parent="main_menu/inventory/tiles"]
+position = Vector2(-95, -48.75)
+texture = ExtResource("14_muc8s")
+
+[node name="Area2D" type="Area2D" parent="main_menu/inventory/tiles/tile11"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="main_menu/inventory/tiles/tile11/Area2D"]
+shape = SubResource("RectangleShape2D_r2n5l")
+
+[node name="double_number_display" parent="main_menu/inventory/tiles/tile11" instance=ExtResource("4_uc3my")]
+position = Vector2(5, 6.25)
+
+[node name="tile12" type="Sprite2D" parent="main_menu/inventory/tiles"]
+position = Vector2(-70, -48.75)
+texture = ExtResource("14_muc8s")
+
+[node name="Area2D" type="Area2D" parent="main_menu/inventory/tiles/tile12"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="main_menu/inventory/tiles/tile12/Area2D"]
+shape = SubResource("RectangleShape2D_r2n5l")
+
+[node name="double_number_display" parent="main_menu/inventory/tiles/tile12" instance=ExtResource("4_uc3my")]
+position = Vector2(5, 6.25)
+
+[node name="tile13" type="Sprite2D" parent="main_menu/inventory/tiles"]
+position = Vector2(-43.75, -48.75)
+texture = ExtResource("14_muc8s")
+
+[node name="Area2D" type="Area2D" parent="main_menu/inventory/tiles/tile13"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="main_menu/inventory/tiles/tile13/Area2D"]
+shape = SubResource("RectangleShape2D_r2n5l")
+
+[node name="double_number_display" parent="main_menu/inventory/tiles/tile13" instance=ExtResource("4_uc3my")]
+position = Vector2(5, 6.25)
+
+[node name="tile14" type="Sprite2D" parent="main_menu/inventory/tiles"]
+position = Vector2(-17.5, -48.75)
+texture = ExtResource("14_muc8s")
+
+[node name="Area2D" type="Area2D" parent="main_menu/inventory/tiles/tile14"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="main_menu/inventory/tiles/tile14/Area2D"]
+shape = SubResource("RectangleShape2D_r2n5l")
+
+[node name="double_number_display" parent="main_menu/inventory/tiles/tile14" instance=ExtResource("4_uc3my")]
+position = Vector2(5, 6.25)
+
+[node name="tile15" type="Sprite2D" parent="main_menu/inventory/tiles"]
+position = Vector2(8.75, -48.75)
+texture = ExtResource("14_muc8s")
+
+[node name="Area2D" type="Area2D" parent="main_menu/inventory/tiles/tile15"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="main_menu/inventory/tiles/tile15/Area2D"]
+shape = SubResource("RectangleShape2D_r2n5l")
+
+[node name="double_number_display" parent="main_menu/inventory/tiles/tile15" instance=ExtResource("4_uc3my")]
+position = Vector2(5, 6.25)
+
+[node name="tile16" type="Sprite2D" parent="main_menu/inventory/tiles"]
+position = Vector2(35, -48.75)
+texture = ExtResource("14_muc8s")
+
+[node name="Area2D" type="Area2D" parent="main_menu/inventory/tiles/tile16"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="main_menu/inventory/tiles/tile16/Area2D"]
+shape = SubResource("RectangleShape2D_r2n5l")
+
+[node name="double_number_display" parent="main_menu/inventory/tiles/tile16" instance=ExtResource("4_uc3my")]
+position = Vector2(5, 6.25)
+
+[node name="tile17" type="Sprite2D" parent="main_menu/inventory/tiles"]
+position = Vector2(62.5, -48.75)
+texture = ExtResource("14_muc8s")
+
+[node name="Area2D" type="Area2D" parent="main_menu/inventory/tiles/tile17"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="main_menu/inventory/tiles/tile17/Area2D"]
+shape = SubResource("RectangleShape2D_r2n5l")
+
+[node name="double_number_display" parent="main_menu/inventory/tiles/tile17" instance=ExtResource("4_uc3my")]
+position = Vector2(5, 6.25)
+
+[node name="tile18" type="Sprite2D" parent="main_menu/inventory/tiles"]
+position = Vector2(90, -48.75)
+texture = ExtResource("14_muc8s")
+
+[node name="Area2D" type="Area2D" parent="main_menu/inventory/tiles/tile18"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="main_menu/inventory/tiles/tile18/Area2D"]
+shape = SubResource("RectangleShape2D_r2n5l")
+
+[node name="double_number_display" parent="main_menu/inventory/tiles/tile18" instance=ExtResource("4_uc3my")]
+position = Vector2(5, 6.25)
+
+[node name="tile19" type="Sprite2D" parent="main_menu/inventory/tiles"]
+position = Vector2(116.25, -48.75)
+texture = ExtResource("14_muc8s")
+
+[node name="Area2D" type="Area2D" parent="main_menu/inventory/tiles/tile19"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="main_menu/inventory/tiles/tile19/Area2D"]
+shape = SubResource("RectangleShape2D_r2n5l")
+
+[node name="double_number_display" parent="main_menu/inventory/tiles/tile19" instance=ExtResource("4_uc3my")]
+position = Vector2(5, 6.25)
+
+[node name="tile20" type="Sprite2D" parent="main_menu/inventory/tiles"]
+position = Vector2(-121.25, -20)
+texture = ExtResource("14_muc8s")
+
+[node name="Area2D" type="Area2D" parent="main_menu/inventory/tiles/tile20"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="main_menu/inventory/tiles/tile20/Area2D"]
+shape = SubResource("RectangleShape2D_r2n5l")
+
+[node name="double_number_display" parent="main_menu/inventory/tiles/tile20" instance=ExtResource("4_uc3my")]
+position = Vector2(5, 6.25)
+
+[node name="tile21" type="Sprite2D" parent="main_menu/inventory/tiles"]
+position = Vector2(-95, -20)
+texture = ExtResource("14_muc8s")
+
+[node name="Area2D" type="Area2D" parent="main_menu/inventory/tiles/tile21"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="main_menu/inventory/tiles/tile21/Area2D"]
+shape = SubResource("RectangleShape2D_r2n5l")
+
+[node name="double_number_display" parent="main_menu/inventory/tiles/tile21" instance=ExtResource("4_uc3my")]
+position = Vector2(5, 6.25)
+
+[node name="tile22" type="Sprite2D" parent="main_menu/inventory/tiles"]
+position = Vector2(-70, -20)
+texture = ExtResource("14_muc8s")
+
+[node name="Area2D" type="Area2D" parent="main_menu/inventory/tiles/tile22"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="main_menu/inventory/tiles/tile22/Area2D"]
+shape = SubResource("RectangleShape2D_r2n5l")
+
+[node name="double_number_display" parent="main_menu/inventory/tiles/tile22" instance=ExtResource("4_uc3my")]
+position = Vector2(5, 6.25)
+
+[node name="tile23" type="Sprite2D" parent="main_menu/inventory/tiles"]
+position = Vector2(-43.75, -20)
+texture = ExtResource("14_muc8s")
+
+[node name="Area2D" type="Area2D" parent="main_menu/inventory/tiles/tile23"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="main_menu/inventory/tiles/tile23/Area2D"]
+shape = SubResource("RectangleShape2D_r2n5l")
+
+[node name="double_number_display" parent="main_menu/inventory/tiles/tile23" instance=ExtResource("4_uc3my")]
+position = Vector2(5, 6.25)
+
+[node name="tile24" type="Sprite2D" parent="main_menu/inventory/tiles"]
+position = Vector2(-17.5, -20)
+texture = ExtResource("14_muc8s")
+
+[node name="Area2D" type="Area2D" parent="main_menu/inventory/tiles/tile24"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="main_menu/inventory/tiles/tile24/Area2D"]
+shape = SubResource("RectangleShape2D_r2n5l")
+
+[node name="double_number_display" parent="main_menu/inventory/tiles/tile24" instance=ExtResource("4_uc3my")]
+position = Vector2(5, 6.25)
+
+[node name="tile25" type="Sprite2D" parent="main_menu/inventory/tiles"]
+position = Vector2(8.74999, -20)
+texture = ExtResource("14_muc8s")
+
+[node name="Area2D" type="Area2D" parent="main_menu/inventory/tiles/tile25"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="main_menu/inventory/tiles/tile25/Area2D"]
+shape = SubResource("RectangleShape2D_r2n5l")
+
+[node name="double_number_display" parent="main_menu/inventory/tiles/tile25" instance=ExtResource("4_uc3my")]
+position = Vector2(5, 6.25)
+
+[node name="tile26" type="Sprite2D" parent="main_menu/inventory/tiles"]
+position = Vector2(35, -20)
+texture = ExtResource("14_muc8s")
+
+[node name="Area2D" type="Area2D" parent="main_menu/inventory/tiles/tile26"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="main_menu/inventory/tiles/tile26/Area2D"]
+shape = SubResource("RectangleShape2D_r2n5l")
+
+[node name="double_number_display" parent="main_menu/inventory/tiles/tile26" instance=ExtResource("4_uc3my")]
+position = Vector2(5, 6.25)
+
+[node name="tile27" type="Sprite2D" parent="main_menu/inventory/tiles"]
+position = Vector2(62.5, -20)
+texture = ExtResource("14_muc8s")
+
+[node name="Area2D" type="Area2D" parent="main_menu/inventory/tiles/tile27"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="main_menu/inventory/tiles/tile27/Area2D"]
+shape = SubResource("RectangleShape2D_r2n5l")
+
+[node name="double_number_display" parent="main_menu/inventory/tiles/tile27" instance=ExtResource("4_uc3my")]
+position = Vector2(5, 6.25)
+
+[node name="tile28" type="Sprite2D" parent="main_menu/inventory/tiles"]
+position = Vector2(90, -20)
+texture = ExtResource("14_muc8s")
+
+[node name="Area2D" type="Area2D" parent="main_menu/inventory/tiles/tile28"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="main_menu/inventory/tiles/tile28/Area2D"]
+shape = SubResource("RectangleShape2D_r2n5l")
+
+[node name="double_number_display" parent="main_menu/inventory/tiles/tile28" instance=ExtResource("4_uc3my")]
+position = Vector2(5, 6.25)
+
+[node name="tile29" type="Sprite2D" parent="main_menu/inventory/tiles"]
+position = Vector2(116.25, -20)
+texture = ExtResource("14_muc8s")
+
+[node name="Area2D" type="Area2D" parent="main_menu/inventory/tiles/tile29"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="main_menu/inventory/tiles/tile29/Area2D"]
+shape = SubResource("RectangleShape2D_r2n5l")
+
+[node name="double_number_display" parent="main_menu/inventory/tiles/tile29" instance=ExtResource("4_uc3my")]
+position = Vector2(5, 6.25)
+
+[node name="delete" type="Sprite2D" parent="main_menu"]
+position = Vector2(146.25, -108.75)
+scale = Vector2(0.66, 0.66)
+texture = ExtResource("17_1o4mo")
+
+[node name="Area2D" type="Area2D" parent="main_menu/delete"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="main_menu/delete/Area2D"]
+shape = SubResource("RectangleShape2D_r6e1q")
+
+[node name="delete_obj" type="Sprite2D" parent="main_menu"]
+position = Vector2(162.5, -42.5)
+texture = ExtResource("18_hqnor")
+
+[node name="Area2D" type="Area2D" parent="main_menu/delete_obj"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="main_menu/delete_obj/Area2D"]
+shape = SubResource("RectangleShape2D_r6e1q")

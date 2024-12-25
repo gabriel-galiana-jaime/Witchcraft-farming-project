@@ -1,0 +1,36 @@
+[gd_resource type="SpriteFrames" load_steps=5 format=3 uid="uid://crwk27i6hd5na"]
+
+[ext_resource type="Texture2D" uid="uid://crcnbfb6dg6uc" path="res://design/lore/village/Farm/Sprout Lands-Sprites-Basic pack/selected_sprite/Basic_tools_and_meterials2.png" id="1_gh6k6"]
+[ext_resource type="Texture2D" uid="uid://crx282lr5kq8a" path="res://design/lore/village/Farm/Sprout Lands-Sprites-Basic pack/selected_sprite/Basic_tools_and_meterials3.png" id="2_2qif8"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kungh"]
+atlas = ExtResource("1_gh6k6")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d732y"]
+atlas = ExtResource("2_2qif8")
+region = Rect2(0, 0, 16, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kungh")
+}],
+"loop": true,
+"name": &"axe",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"blank",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d732y")
+}],
+"loop": true,
+"name": &"hacke",
+"speed": 5.0
+}]

@@ -22,7 +22,6 @@ func _ready() -> void:
 # Static
 	Input.set_mouse_mode(1)
 	#current_game =  JSON.parse_string(str(test_1))
-	pass # Replace with function body.
 	var file_path = "res://assets/ressources/jsons/save/current_game_file.json"
 	load_world_data("farm",auto_file_system.open_file_as_json(file_path))
 	load_world_setting("farm",auto_file_system.open_file_as_json(file_path))
@@ -46,7 +45,7 @@ func load_world_setting(map_section,data):
 
 func load_world_data(map_section,data):
 	data = data["map"][map_section]
-	print(len(data["objects"]))
+	#print(len(data["objects"]))
 	for i in range(len(data["objects"])):
 		#print(i)
 		id_object = i

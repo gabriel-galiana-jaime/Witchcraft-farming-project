@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://k8oylu3r3rb7"]
+
+[ext_resource type="Texture2D" uid="uid://bey3appwpbp2a" path="res://design/UI/selected/numbers/number1.png" id="1_m8lcg"]
+[ext_resource type="Script" path="res://assets/scr/editor/new_nodes/double_number_display.gd" id="2_ewg6h"]
+[ext_resource type="Texture2D" uid="uid://xxmrhu1gi515" path="res://design/UI/selected/numbers/number7.png" id="3_eqp5h"]
+
+[node name="double_number_display" type="Sprite2D"]
+z_index = 4
+position = Vector2(4.23409, 5.9971)
+scale = Vector2(0.334, 0.334)
+texture = ExtResource("1_m8lcg")
+script = ExtResource("2_ewg6h")
+
+[node name="second_number" type="Sprite2D" parent="."]
+position = Vector2(8.6532, 0)
+texture = ExtResource("3_eqp5h")

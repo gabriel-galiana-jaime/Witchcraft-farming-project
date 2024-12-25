@@ -1,197 +1,272 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1733761987
-export_presets.cfg::TextFile::-1::1733486815::0::1::::<><>::
-icon.png::CompressedTexture2D::2964266169511873219::1732646570::1733761988::1::::<><>::
-icon.svg::CompressedTexture2D::5659771674146952085::1732646570::1733761988::1::::<><>::
-preview.png::CompressedTexture2D::5430747326413886135::1732646570::1733761988::1::::<><>::
-README.md::TextFile::-1::1733761925::0::1::::<><>::
-::res://addons/::1732646570
-::res://addons/fullscreen on input/::1732646570
-fullscreen_on_input.gd::GDScript::-1::1732646570::0::1::::FullscreenOnInput<>Node<>::
-fullscreen_on_input.tscn::PackedScene::4041056210652979869::1732646570::0::1::::<><>::res://addons/fullscreen on input/fullscreen_on_input.gd
-::res://assets/::1732646570
-::res://assets/audio-music/::1732646570
-Fichier texte.txt::TextFile::-1::1732646570::0::1::::<><>::
-::res://assets/ressources/::1732816234
-::res://assets/ressources/jsons/::1732816242
-::res://assets/ressources/jsons/save/::1733486682
-current_game_file.json::JSON::-1::1733486682::0::1::::<><>::
-::res://assets/ressources/tileset/::1733759825
-tile_set_editable.tres::TileSet::4198497811983115847::1733759825::0::1::::<><>::uid://cr2xxtoifwwdx::::res://design/lore/village/Farm/Tiny Wonder Farm Free/tilemaps/spring farm tilemap.png<>uid://bmd8y3fu07c1f::::res://design/lore/village/Farm/Tiny Wonder Farm Free/tilemaps/spring farm tilemap2.png<>uid://byiqtgnx2ib67::::res://design/lore/village/Farm/Tiny Wonder Farm Free/tilemaps/farm bridges free.png<>uid://1wjbhexyxjlc::::res://design/lore/village/Farm/Tiny Wonder Farm Free/tilemaps/farm inside free.png
-::res://assets/scenes/::1733486682
-::res://assets/scenes/preloads/::1732981269
-::res://assets/scenes/preloads/object/::1732994097
-nps_testobj1.tscn::PackedScene::6900145829371319123::1732981269::0::1::::<><>::uid://cj1oocq5gb4md::::res://assets/scenes/scene_obj/objects/test-debug/testobj_1.tscn
-::res://assets/scenes/preloads/object/mining/::1732994244
-nps_rock.tscn::PackedScene::4515296201925822223::1732994244::0::1::::<><>::uid://de4gpumi3j28y::::res://assets/scenes/scene_obj/objects/foraging/rock.tscn
-::res://assets/scenes/scene_gameplay/::1732646570
-Fichier texte.txt::TextFile::-1::1732646570::0::1::::<><>::
-::res://assets/scenes/scene_gameplay/outside/::1733761860
-sce_farm.tscn::PackedScene::7178451746084045092::1733761860::0::1::::<><>::res://assets/scr/world/scr_world_prefab.gd<>uid://c8qm5yf4cj5jy::::res://assets/scenes/scene_obj/player-related/player_obj.tscn<>uid://b021v7i5uf42v::::res://assets/ressources/tileset/tile_set_editable.tres<>uid://blsbcugvhac2n::::res://assets/scenes/scene_obj/UI/system/cursor.tscn<>uid://d0erdrnnpk5kf::::res://assets/scenes/scene_obj/UI/system/system_mouse.tscn<>uid://cg0th21xylda::::res://assets/scenes/UI/control_main_ui_gameplay.tscn
-::res://assets/scenes/scene_gameplay/testscene/::1732646570
-testscene_1.tscn::PackedScene::5701591183986931917::1732646570::0::1::::<><>::res://assets/scr/test/tile-experiment/scr_testscene_1_random_tile_support.gd<>uid://b021v7i5uf42v::::res://assets/ressources/tileset/tile_set_editable.tres
-::res://assets/scenes/scene_gameplay/UI/::1732646570
-main_scene.tscn::PackedScene::5790289434053091485::1732646570::0::1::::<><>::
-::res://assets/scenes/scene_obj/::1732981269
-Fichier texte.txt::TextFile::-1::1732646570::0::1::::<><>::
-::res://assets/scenes/scene_obj/objects/::1732993885
-::res://assets/scenes/scene_obj/objects/foraging/::1733761860
-rock.tscn::PackedScene::7500276538770281198::1733761860::0::1::::<><>::uid://ca24xxub30mgv::::res://design/lore/village/Farm/Tiny Wonder Farm Free/objects&items/rocktest.png<>res://assets/scr/world/object/mining/scr_rock.gd
-::res://assets/scenes/scene_obj/objects/test-debug/::1733761860
-testobj_1.tscn::PackedScene::5459089951882171703::1733761860::0::1::::<><>::uid://capiqd5vacdp7::::res://design/art-style-section/art-concept/crop1.png<>res://assets/scr/world/object/tets-debug/testobj_1.gd
-::res://assets/scenes/scene_obj/player-related/::1732993053
-player_obj.tscn::PackedScene::7122886698841685898::1732993053::0::1::::<><>::res://assets/scr/player/scr_player_controller.gd<>uid://3q2mbq7gvbxh::::res://design/lore/village/Farm/Tiny Wonder Farm Free/characters/main character/walk and idle.png
-::res://assets/scenes/scene_obj/UI/::1732981269
-::res://assets/scenes/scene_obj/UI/system/::1733761860
-cursor.tscn::PackedScene::3195722112564440379::1732981269::0::1::::<><>::uid://b1jkoxc5kmdky::::res://design/art-style-section/art-concept/ui/cursortest1.png
-system_mouse.tscn::PackedScene::8923279112895639921::1733761860::0::1::::<><>::uid://bnor53qw8kf1f::::res://design/art-style-section/references/ui/mouse/Triangle Mouse icon 1.png<>uid://capiqd5vacdp7::::res://design/art-style-section/art-concept/crop1.png<>res://assets/scr/system/scr_system_mouse.gd
-::res://assets/scenes/UI/::1733761860
-control_main_ui_gameplay.tscn::PackedScene::154316219289961154::1733761860::0::1::::<><>::res://assets/scr/system/inventory/scr_control_main_ui_gameplay.gd<>uid://dqy76t1wqnpr::::res://design/UI/selected/ui_box1.png
-::res://assets/scr/::1732981269
-Fichier texte.txt::TextFile::-1::1732646570::0::1::::<><>::
-::res://assets/scr/autoloads/::1733157097
-auto_preload_obj.gd::GDScript::-1::1732994244::0::1::::<>Node<>::
-::res://assets/scr/autoloads/runtime/::1733759046
-auto_main_runtime.gd::GDScript::-1::1733759046::0::1::::<>Node<>::
-::res://assets/scr/autoloads/save_system/::1732981269
-auto_filesystem.gd::GDScript::-1::1732981269::0::1::::<>Node<>::
-::res://assets/scr/autoloads/tilesets/::1732646570
-scr_auto_main_tilemap_controller.gd::GDScript::-1::1732646570::0::1::::<>Node<>::
-::res://assets/scr/player/::1732993053
-scr_player_controller.gd::GDScript::-1::1732993053::0::1::::<>CharacterBody2D<>::
-::res://assets/scr/system/::1733673877
-scr_system_mouse.gd::GDScript::-1::1733486682::0::1::::<>Sprite2D<>::
-::res://assets/scr/system/inventory/::1733761858
-scr_control_main_ui_gameplay.gd::GDScript::-1::1733761858::0::1::::<>Node2D<>::
-::res://assets/scr/test/::1732646570
-::res://assets/scr/test/tile-experiment/::1732646570
-scr_testscene_1_random_tile_support.gd::GDScript::-1::1732646570::0::1::::<>Node2D<>::
-::res://assets/scr/world/::1733674410
-scr_world_prefab.gd::GDScript::-1::1733674410::0::1::::<>Node2D<>::
-::res://assets/scr/world/object/::1732994205
-::res://assets/scr/world/object/mining/::1733157390
-scr_rock.gd::GDScript::-1::1733157390::0::1::::<>StaticBody2D<>::
-::res://assets/scr/world/object/tets-debug/::1733157620
-testobj_1.gd::GDScript::-1::1733157620::0::1::::<>Sprite2D<>::
-::res://assets/sprites/::1732646570
-Fichier texte.txt::TextFile::-1::1732646570::0::1::::<><>::
-::res://design/::1733326919
-::res://design/art-style-section/::1732646570
-::res://design/art-style-section/art-concept/::1732966745
-crop1.png::CompressedTexture2D::4804321547210118234::1732966725::1733761989::1::::<><>::
-::res://design/art-style-section/art-concept/ui/::1732966745
-cursortest1.png::CompressedTexture2D::4230543401614377912::1732966725::1733761989::1::::<><>::
-::res://design/art-style-section/palette/::1732646645
-mulfok32-1x.png::CompressedTexture2D::3835722172467832042::1732646570::1733761989::1::::<><>::
-resurrect-64-1x.png::CompressedTexture2D::2684430563047927813::1732646570::1733761989::1::::<><>::
-::res://design/art-style-section/references/::1732966725
-Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset.png::CompressedTexture2D::1713754590544714914::1732646570::1733761989::1::::<><>::
-PC Computer - Stardew Valley - Dirt Hoed.png::CompressedTexture2D::6104782479056841580::1732646570::1733761989::1::::<><>::
-PC Computer - Stardew Valley - Outdoors Spring.png::CompressedTexture2D::8566618103558027052::1732646570::1733761989::1::::<><>::
-PC Computer - Stardew Valley - Trees.png::CompressedTexture2D::6837275476996711117::1732646570::1733761989::1::::<><>::
-::res://design/art-style-section/references/ui/::1732966725
-::res://design/art-style-section/references/ui/mouse/::1732966745
-Triangle Mouse icon 1.png::CompressedTexture2D::3328864198653288493::1732966725::1733761989::1::::<><>::
-Triangle Mouse icon 2.png::CompressedTexture2D::7944059687877236451::1732966725::1733761989::1::::<><>::
-Triangle Mouse icon 3.png::CompressedTexture2D::7559175197128536973::1732966725::1733761989::1::::<><>::
-::res://design/investigation/::1732646570
-Fichier texte.txt::TextFile::-1::1732646570::0::1::::<><>::
-::res://design/lore/::1732646570
-Fichier texte.txt::TextFile::-1::1732646570::0::1::::<><>::
-::res://design/lore/NPC/::1732646570
-::res://design/lore/village/::1732646570
-::res://design/lore/village/Farm/::1732646570
-::res://design/lore/village/Farm/tiled/::1732646570
-::res://design/lore/village/Farm/tiled/export/::1732646570
-farmmap.tscn::PackedScene::5986593424160295045::1732646570::0::1::::<><>::uid://duby7isqjj6rw::::res://design/art-style-section/references/PC Computer - Stardew Valley - Outdoors Spring.png<>uid://cr2xxtoifwwdx::::res://design/lore/village/Farm/Tiny Wonder Farm Free/tilemaps/spring farm tilemap.png
-::res://design/lore/village/Farm/Tiny Wonder Farm Free/::1732646570
-https butterymilk itch.txt::TextFile::-1::1732646570::0::1::::<><>::
-::res://design/lore/village/Farm/Tiny Wonder Farm Free/characters/::1732646570
-::res://design/lore/village/Farm/Tiny Wonder Farm Free/characters/main character/::1732646645
-portrait female.png::CompressedTexture2D::8848321898661274212::1732646570::1733761988::1::::<><>::
-portrait male.png::CompressedTexture2D::3746753783870844456::1732646570::1733761988::1::::<><>::
-walk and idle.png::CompressedTexture2D::1999978532964416161::1732646570::1733761988::1::::<><>::
-::res://design/lore/village/Farm/Tiny Wonder Farm Free/characters/main character old/::1732646645
-portrait female.png::CompressedTexture2D::5038424836878338725::1732646570::1733761988::1::::<><>::
-portrait male.png::CompressedTexture2D::1535167147130408234::1732646570::1733761988::1::::<><>::
-walk and idle.png::CompressedTexture2D::5022095048733621600::1732646570::1733761988::1::::<><>::
-::res://design/lore/village/Farm/Tiny Wonder Farm Free/objects&items/::1732993398
-farm objects free.png::CompressedTexture2D::5327220069944817874::1732646570::1733761988::1::::<><>::
-fiver.png::CompressedTexture2D::8401295761155987070::1732993316::1733761988::1::::<><>::
-furniture free.png::CompressedTexture2D::1219849198066601099::1732646570::1733761988::1::::<><>::
-items free.png::CompressedTexture2D::6457873521348762001::1732646570::1733761989::1::::<><>::
-plants free.png::CompressedTexture2D::3873251045861537057::1732646570::1733761989::1::::<><>::
-rocktest.png::CompressedTexture2D::4830382671812847289::1732993331::1733761989::1::::<><>::
-::res://design/lore/village/Farm/Tiny Wonder Farm Free/tilemaps/::1732646645
-farm bridges free.png::CompressedTexture2D::4088473691310783698::1732646570::1733761989::1::::<><>::
-farm inside free.png::CompressedTexture2D::1870874858827630388::1732646570::1733761989::1::::<><>::
-spring farm tilemap2.png::CompressedTexture2D::3236927939747883729::1732646570::1733761989::1::::<><>::
-spring farm tilemap3.png::CompressedTexture2D::2765259314750162605::1732646570::1733761989::1::::<><>::
-spring farm tilemap.png::CompressedTexture2D::6023228492627777749::1732646570::1733761989::1::::<><>::
-spring farm tilemaporiginal.png::CompressedTexture2D::1000849792999207527::1732646570::1733761989::1::::<><>::
-tilemap4-pal.png::CompressedTexture2D::3539576262193360833::1732646570::1733761989::1::::<><>::
-::res://design/mechanics/::1732646570
-::res://design/UI/::1733327096
-::res://design/UI/selected/::1733759989
-ui_box0.png::CompressedTexture2D::2325855836380125744::1733759988::1733761989::1::::<><>::
-ui_box1.png::CompressedTexture2D::245112586996908579::1733759268::1733761989::1::::<><>::
-ui_box2.png::CompressedTexture2D::7183147398606059995::1733759275::1733761989::1::::<><>::
-::res://design/UI/Sprout Lands - UI Pack - Basic pack/::1733326869
-read_me.txt::TextFile::-1::1719864146::0::1::::<><>::
-::res://design/UI/Sprout Lands - UI Pack - Basic pack/emojis-free/::1733326922
-Emoji_Spritesheet_Free.png::CompressedTexture2D::2949133233285971176::1722344310::1733761988::1::::<><>::
-speech_bubble_grey.png::CompressedTexture2D::649925441611710888::1720372558::1733761988::1::::<><>::
-::res://design/UI/Sprout Lands - UI Pack - Basic pack/emojis-free/emoji style ui/::1733326922
-Inventory_Blocks_Spritesheet.png::CompressedTexture2D::3844162253540520999::1721656536::1733761989::1::::<><>::
-inventory_example.png::CompressedTexture2D::9149540415697825981::1720375642::1733761989::1::::<><>::
-inventory_example_2.png::CompressedTexture2D::2817988525647185464::1720375674::1733761989::1::::<><>::
-inventory_example_with_slots.png::CompressedTexture2D::3358929066976847785::1720375286::1733761989::1::::<><>::
-inventory_example_with_slots_2.png::CompressedTexture2D::8228445585544057351::1721659426::1733761989::1::::<><>::
-Inventory_Herat_Spritesheet.png::CompressedTexture2D::2161809514927668026::1721917102::1733761989::1::::<><>::
-inventory_Light_example.png::CompressedTexture2D::3716570475609717115::1721659944::1733761988::1::::<><>::
-inventory_Light_example_2.png::CompressedTexture2D::4576326072521305251::1721659962::1733761988::1::::<><>::
-inventory_Light_example_with_slots.png::CompressedTexture2D::3793410648801423590::1721659768::1733761988::1::::<><>::
-Inventory_Light_example_with_slots_2.png::CompressedTexture2D::1469435878934509917::1721659460::1733761988::1::::<><>::
-Inventory_Light_Herat_Spritesheet.png::CompressedTexture2D::658305574898951842::1721917100::1733761988::1::::<><>::
-Inventory_Spritesheet.png::CompressedTexture2D::7460219204811350890::1721918078::1733761988::1::::<><>::
-::res://design/UI/Sprout Lands - UI Pack - Basic pack/emojis-free/emoji style ui/weather/::1733326922
-Weather_Icons_smal_freel.png::CompressedTexture2D::6989511597240641011::1722604758::1733761989::1::::<><>::
-Weather_UI_Free.png::CompressedTexture2D::5803984290669317569::1722604884::1733761989::1::::<><>::
-::res://design/UI/Sprout Lands - UI Pack - Basic pack/fonts/::1733326922
-pixel-letters-7-8x14-preview.png::CompressedTexture2D::1025842109451657688::1718903390::1733761988::1::::<><>::
-pixel-letters-7-8x14.png::CompressedTexture2D::7921292792366440437::1717502310::1733761988::1::::<><>::
-pixelFont-7-8x14-sproutLands.ttf::FontFile::7870297570075386766::1718724010::1733761988::1::::<><>::
-::res://design/UI/Sprout Lands - UI Pack - Basic pack/Sprite sheets/::1733326922
-Setting menu.png::CompressedTexture2D::1148966462980612678::1647176752::1733761988::1::::<><>::
-Sprite sheet for Basic Pack.png::CompressedTexture2D::5892862143304250415::1658006396::1733761989::1::::<><>::
-UI Big Play Button.png::CompressedTexture2D::7620120495177391415::1647180732::1733761988::1::::<><>::
-UI Settings Buttons.png::CompressedTexture2D::8159559655316798063::1647180478::1733761988::1::::<><>::
-::res://design/UI/Sprout Lands - UI Pack - Basic pack/Sprite sheets/buttons/::1733326922
-Small Square Buttons.png::CompressedTexture2D::2349840330323716058::1658001218::1733761988::1::::<><>::
-Square Buttons 19x26.png::CompressedTexture2D::4191322159456235311::1658001182::1733761988::1::::<><>::
-Square Buttons 26x19.png::CompressedTexture2D::4645385272906159560::1658001118::1733761988::1::::<><>::
-Square Buttons 26x26.png::CompressedTexture2D::1715760407557532565::1719578686::1733761988::1::::<><>::
-::res://design/UI/Sprout Lands - UI Pack - Basic pack/Sprite sheets/Dialouge UI/::1733326922
-dialog box big.png::CompressedTexture2D::5876037776345016314::1657981068::1733761988::1::::<><>::
-dialog box character finished talking click to continue indicator - spritesheet .png::CompressedTexture2D::8179225491385122054::1657980710::1733761988::1::::<><>::
-dialog box medium.png::CompressedTexture2D::7260339154209379404::1657981036::1733761988::1::::<><>::
-dialog box small.png::CompressedTexture2D::6003765928049248848::1657981000::1733761988::1::::<><>::
-dialog box.png::CompressedTexture2D::7921075302683896604::1657980970::1733761988::1::::<><>::
-Premade dialog box  big.png::CompressedTexture2D::3539219516135451426::1657980048::1733761988::1::::<><>::
-Premade dialog box medium.png::CompressedTexture2D::4717016693267591915::1657979946::1733761988::1::::<><>::
-Premade dialog box small.png::CompressedTexture2D::8051289816279887294::1657979970::1733761988::1::::<><>::
-::res://design/UI/Sprout Lands - UI Pack - Basic pack/Sprite sheets/Dialouge UI/Emotes/::1733326922
-Teemo Basic emote animations sprite sheet.png::CompressedTexture2D::3282651656933507785::1658003552::1733761988::1::::<><>::
-::res://design/UI/Sprout Lands - UI Pack - Basic pack/Sprite sheets/Icons/::1733326922
-All Icons.png::CompressedTexture2D::7926148137652733870::1658006306::1733761988::1::::<><>::
-white icons.png::CompressedTexture2D::2721518145951600255::1658006320::1733761988::1::::<><>::
-::res://design/UI/Sprout Lands - UI Pack - Basic pack/Sprite sheets/Icons/special icons/::1733326922
-Small Happines-Sadness icons.png::CompressedTexture2D::8632044993705041584::1658000380::1733761988::1::::<><>::
-Special Icons.png::CompressedTexture2D::3489255281040397299::1658006280::1733761988::1::::<><>::
-::res://design/UI/Sprout Lands - UI Pack - Basic pack/Sprite sheets/Mouse sprites/::1733326922
-Catpaw holding Mouse icon.png::CompressedTexture2D::825659855105315039::1658000838::1733761988::1::::<><>::
-Catpaw Mouse icon.png::CompressedTexture2D::7389291903156909306::1658000820::1733761988::1::::<><>::
-Catpaw pointing Mouse icon.png::CompressedTexture2D::4518210013923667893::1658000808::1733761988::1::::<><>::
-Triangle Mouse icon 1.png::CompressedTexture2D::513255492404661092::1658000624::1733761988::1::::<><>::
-Triangle Mouse icon 2.png::CompressedTexture2D::8994628494684592890::1658000640::1733761988::1::::<><>::
-Triangle Mouse icon 3.png::CompressedTexture2D::4644907567950207569::1658000650::1733761988::1::::<><>::
+::res://::1735128543
+export_presets.cfg::TextFile::-1::1735059078::0::1::::<><>::
+icon.png::CompressedTexture2D::2964266169511873219::1734886565::1735128546::1::::<><>::
+icon.svg::CompressedTexture2D::5659771674146952085::1734886565::1735128546::1::::<><>::
+preview.png::CompressedTexture2D::5430747326413886135::1734886565::1735128546::1::::<><>::
+README.md::TextFile::-1::1735128372::0::1::::<><>::
+::res://addons/::1734886565
+::res://addons/fullscreen on input/::1734886565
+fullscreen_on_input.gd::GDScript::-1::1734886565::0::1::::FullscreenOnInput<>Node<>::
+fullscreen_on_input.tscn::PackedScene::4041056210652979869::1734886565::0::1::::<><>::res://addons/fullscreen on input/fullscreen_on_input.gd
+::res://assets/::1734886565
+::res://assets/audio-music/::1734886565
+Fichier texte.txt::TextFile::-1::1734886565::0::1::::<><>::
+::res://assets/ressources/::1734886565
+::res://assets/ressources/jsons/::1734886565
+::res://assets/ressources/jsons/save/::1734886565
+current_game_file.json::JSON::-1::1734886565::0::1::::<><>::
+::res://assets/ressources/sprite_ressources/::1735127779
+sf_player_tool.tres::SpriteFrames::6012125100708810010::1735127779::0::1::::<><>::uid://crcnbfb6dg6uc::::res://design/lore/village/Farm/Sprout Lands-Sprites-Basic pack/selected_sprite/Basic_tools_and_meterials2.png<>uid://crx282lr5kq8a::::res://design/lore/village/Farm/Sprout Lands-Sprites-Basic pack/selected_sprite/Basic_tools_and_meterials3.png
+::res://assets/ressources/tileset/::1735120806
+tile_set_editable.tres::TileSet::4198497811983115847::1735120806::0::1::::<><>::uid://cr2xxtoifwwdx::::res://design/lore/village/Farm/Tiny Wonder Farm Free/tilemaps/spring farm tilemap.png<>uid://bmd8y3fu07c1f::::res://design/lore/village/Farm/Tiny Wonder Farm Free/tilemaps/spring farm tilemap2.png<>uid://byiqtgnx2ib67::::res://design/lore/village/Farm/Tiny Wonder Farm Free/tilemaps/farm bridges free.png<>uid://1wjbhexyxjlc::::res://design/lore/village/Farm/Tiny Wonder Farm Free/tilemaps/farm inside free.png
+::res://assets/scenes/::1734985419
+::res://assets/scenes/editor/::1734985422
+::res://assets/scenes/editor/new_nodes/::1734986853
+double_number_display.tscn::PackedScene::770906409165714166::1734986853::0::1::::<><>::uid://bey3appwpbp2a::::res://design/UI/selected/numbers/number1.png<>res://assets/scr/editor/new_nodes/double_number_display.gd<>uid://xxmrhu1gi515::::res://design/UI/selected/numbers/number7.png
+::res://assets/scenes/preloads/::1734886565
+::res://assets/scenes/preloads/object/::1734886565
+nps_testobj1.tscn::PackedScene::6900145829371319123::1734886565::0::1::::<><>::uid://cj1oocq5gb4md::::res://assets/scenes/scene_obj/objects/test-debug/testobj_1.tscn
+::res://assets/scenes/preloads/object/mining/::1734886565
+nps_rock.tscn::PackedScene::4515296201925822223::1734886565::0::1::::<><>::uid://de4gpumi3j28y::::res://assets/scenes/scene_obj/objects/foraging/rock.tscn
+::res://assets/scenes/scene_gameplay/::1734886565
+Fichier texte.txt::TextFile::-1::1734886565::0::1::::<><>::
+::res://assets/scenes/scene_gameplay/outside/::1735128308
+sce_farm.tscn::PackedScene::7178451746084045092::1735128308::0::1::::<><>::res://assets/scr/world/scr_world_prefab.gd<>uid://c8qm5yf4cj5jy::::res://assets/scenes/scene_obj/player-related/player_obj.tscn<>uid://b021v7i5uf42v::::res://assets/ressources/tileset/tile_set_editable.tres<>uid://blsbcugvhac2n::::res://assets/scenes/scene_obj/UI/system/cursor.tscn<>uid://d0erdrnnpk5kf::::res://assets/scenes/scene_obj/UI/system/system_mouse.tscn<>uid://cg0th21xylda::::res://assets/scenes/UI/control_main_ui_gameplay.tscn
+::res://assets/scenes/scene_gameplay/testscene/::1734886565
+testscene_1.tscn::PackedScene::5701591183986931917::1734886565::0::1::::<><>::res://assets/scr/test/tile-experiment/scr_testscene_1_random_tile_support.gd<>uid://b021v7i5uf42v::::res://assets/ressources/tileset/tile_set_editable.tres
+::res://assets/scenes/scene_gameplay/UI/::1734886565
+main_scene.tscn::PackedScene::5790289434053091485::1734886565::0::1::::<><>::
+::res://assets/scenes/scene_obj/::1734886565
+Fichier texte.txt::TextFile::-1::1734886565::0::1::::<><>::
+::res://assets/scenes/scene_obj/objects/::1734886565
+::res://assets/scenes/scene_obj/objects/foraging/::1734886565
+rock.tscn::PackedScene::7500276538770281198::1734886565::0::1::::<><>::uid://ca24xxub30mgv::::res://design/lore/village/Farm/Tiny Wonder Farm Free/objects&items/rocktest.png<>res://assets/scr/world/object/mining/scr_rock.gd
+::res://assets/scenes/scene_obj/objects/test-debug/::1734886565
+testobj_1.tscn::PackedScene::5459089951882171703::1734886565::0::1::::<><>::uid://capiqd5vacdp7::::res://design/art-style-section/art-concept/crop1.png<>res://assets/scr/world/object/tets-debug/testobj_1.gd
+::res://assets/scenes/scene_obj/player-related/::1735128328
+player_obj.tscn::PackedScene::7122886698841685898::1735128328::0::1::::<><>::res://assets/scr/player/scr_player_controller.gd<>uid://3q2mbq7gvbxh::::res://design/lore/village/Farm/Tiny Wonder Farm Free/characters/main character/walk and idle.png<>uid://crwk27i6hd5na::::res://assets/ressources/sprite_ressources/sf_player_tool.tres
+::res://assets/scenes/scene_obj/UI/::1734886565
+::res://assets/scenes/scene_obj/UI/system/::1734886565
+cursor.tscn::PackedScene::3195722112564440379::1734886565::0::1::::<><>::uid://b1jkoxc5kmdky::::res://design/art-style-section/art-concept/ui/cursortest1.png
+system_mouse.tscn::PackedScene::8923279112895639921::1734886565::0::1::::<><>::uid://bnor53qw8kf1f::::res://design/art-style-section/references/ui/mouse/Triangle Mouse icon 1.png<>uid://capiqd5vacdp7::::res://design/art-style-section/art-concept/crop1.png<>res://assets/scr/system/scr_system_mouse.gd
+::res://assets/scenes/UI/::1735125013
+control_main_ui_gameplay.tscn::PackedScene::154316219289961154::1735125013::0::1::::<><>::res://assets/scr/system/inventory/scr_control_main_ui_gameplay.gd<>uid://dqy76t1wqnpr::::res://design/UI/selected/ui_box1.png<>uid://bey3appwpbp2a::::res://design/UI/selected/numbers/number1.png<>uid://k8oylu3r3rb7::::res://assets/scenes/editor/new_nodes/double_number_display.tscn<>uid://l7gsqcboik6k::::res://design/UI/selected/numbers/number2.png<>uid://d0qww31vq5722::::res://design/UI/selected/numbers/number3.png<>uid://b58wk8c37itwh::::res://design/UI/selected/numbers/number4.png<>uid://dt8x2kf7yraqm::::res://design/UI/selected/numbers/number5.png<>uid://d0qeol0a5iwrs::::res://design/UI/selected/numbers/number6.png<>uid://xxmrhu1gi515::::res://design/UI/selected/numbers/number7.png<>uid://2jjpmdni0tdl::::res://design/UI/selected/numbers/number8.png<>uid://dfh0uj1edevhe::::res://design/UI/selected/numbers/number9.png<>uid://bdq5qeark66qf::::res://design/UI/selected/numbers/number10.png<>uid://bcqa3sxigkocs::::res://design/UI/selected/main-ui/inventory.png<>uid://capiqd5vacdp7::::res://design/art-style-section/art-concept/crop1.png<>uid://ca24xxub30mgv::::res://design/lore/village/Farm/Tiny Wonder Farm Free/objects&items/rocktest.png<>uid://cpbqikocmr7he::::res://design/UI/selected/main-ui/inventory_delete_1.png<>uid://bq5ojalkdhjd3::::res://design/UI/selected/main-ui/inventory_delete_3.png
+::res://assets/scr/::1734985369
+Fichier texte.txt::TextFile::-1::1734886565::0::1::::<><>::
+::res://assets/scr/autoloads/::1734886565
+auto_preload_obj.gd::GDScript::-1::1734886565::0::1::::<>Node<>::
+auto_utilities.gd::GDScript::-1::1734886565::0::1::::<>Node<>::
+::res://assets/scr/autoloads/runtime/::1735078853
+auto_main_runtime.gd::GDScript::-1::1735078853::0::1::::<>Node<>::
+::res://assets/scr/autoloads/save_system/::1734886565
+auto_filesystem.gd::GDScript::-1::1734886565::0::1::::<>Node<>::
+::res://assets/scr/autoloads/tilesets/::1734886565
+scr_auto_main_tilemap_controller.gd::GDScript::-1::1734886565::0::1::::<>Node<>::
+::res://assets/scr/editor/::1734985377
+::res://assets/scr/editor/new_nodes/::1735041772
+double_number_display.gd::GDScript::-1::1735041772::0::1::::<>Sprite2D<>::
+::res://assets/scr/player/::1735128308
+scr_player_controller.gd::GDScript::-1::1735128308::0::1::::<>CharacterBody2D<>::
+::res://assets/scr/system/::1734957876
+scr_system_mouse.gd::GDScript::-1::1734957876::0::1::::<>Sprite2D<>::
+::res://assets/scr/system/inventory/::1735124493
+scr_control_main_ui_gameplay.gd::GDScript::-1::1735124493::0::1::::<>Node2D<>::
+::res://assets/scr/test/::1734886565
+::res://assets/scr/test/tile-experiment/::1734886565
+scr_testscene_1_random_tile_support.gd::GDScript::-1::1734886565::0::1::::<>Node2D<>::
+::res://assets/scr/world/::1734886565
+scr_world_prefab.gd::GDScript::-1::1734886565::0::1::::<>Node2D<>::
+::res://assets/scr/world/object/::1734886565
+::res://assets/scr/world/object/mining/::1734957876
+scr_rock.gd::GDScript::-1::1734957876::0::1::::<>StaticBody2D<>::
+::res://assets/scr/world/object/tets-debug/::1734957876
+testobj_1.gd::GDScript::-1::1734957876::0::1::::<>Sprite2D<>::
+::res://assets/sprites/::1734886565
+Fichier texte.txt::TextFile::-1::1734886565::0::1::::<><>::
+::res://design/::1734886565
+::res://design/art-style-section/::1734886565
+::res://design/art-style-section/art-concept/::1734886743
+crop1.png::CompressedTexture2D::4804321547210118234::1734886565::1735128546::1::::<><>::
+newicon.png::CompressedTexture2D::3531952003145921422::1734886565::1735128546::1::::<><>::
+::res://design/art-style-section/art-concept/ui/::1734886743
+cursortest1.png::CompressedTexture2D::4230543401614377912::1734886565::1735128546::1::::<><>::
+::res://design/art-style-section/palette/::1734886743
+mulfok32-1x.png::CompressedTexture2D::3835722172467832042::1734886565::1735128546::1::::<><>::
+resurrect-64-1x.png::CompressedTexture2D::2684430563047927813::1734886565::1735128546::1::::<><>::
+::res://design/art-style-section/references/::1734886744
+Copie d'écran_20241222_165058.png::CompressedTexture2D::6472993148238584068::1734886565::1735128546::1::::<><>::
+Game Boy GBC - The Legend of Zelda Links Awakening DX - Overworld Tileset.png::CompressedTexture2D::1713754590544714914::1734886565::1735128546::1::::<><>::
+PC Computer - Stardew Valley - Dirt Hoed.png::CompressedTexture2D::6104782479056841580::1734886565::1735128546::1::::<><>::
+PC Computer - Stardew Valley - Outdoors Spring.png::CompressedTexture2D::8566618103558027052::1734886565::1735128548::1::::<><>::
+PC Computer - Stardew Valley - Trees.png::CompressedTexture2D::6837275476996711117::1734886565::1735128547::1::::<><>::
+::res://design/art-style-section/references/ui/::1734886565
+::res://design/art-style-section/references/ui/mouse/::1734886743
+Triangle Mouse icon 1.png::CompressedTexture2D::3328864198653288493::1734886565::1735128546::1::::<><>::
+Triangle Mouse icon 2.png::CompressedTexture2D::7944059687877236451::1734886565::1735128546::1::::<><>::
+Triangle Mouse icon 3.png::CompressedTexture2D::7559175197128536973::1734886565::1735128546::1::::<><>::
+::res://design/investigation/::1734886565
+Fichier texte.txt::TextFile::-1::1734886565::0::1::::<><>::
+::res://design/lore/::1734886565
+Fichier texte.txt::TextFile::-1::1734886565::0::1::::<><>::
+::res://design/lore/NPC/::1734886565
+::res://design/lore/village/::1734886565
+::res://design/lore/village/Farm/::1734886565
+::res://design/lore/village/Farm/Sprout Lands-Sprites-Basic pack/::1734886565
+read_me.txt::TextFile::-1::1734886565::0::1::::<><>::
+::res://design/lore/village/Farm/Sprout Lands-Sprites-Basic pack/Characters/::1734886743
+Basic Charakter Actions.png::CompressedTexture2D::840671105183293793::1734886565::1735128547::1::::<><>::
+Basic Charakter Spritesheet.png::CompressedTexture2D::4383791228684896189::1734886565::1735128547::1::::<><>::
+Egg_And_Nest.png::CompressedTexture2D::247409908761384057::1734886565::1735128547::1::::<><>::
+Free Chicken Sprites.png::CompressedTexture2D::5495649177504923656::1734886565::1735128547::1::::<><>::
+Free Cow Sprites.png::CompressedTexture2D::3175202245418898587::1734886565::1735128547::1::::<><>::
+Tools.png::CompressedTexture2D::7772824190039808241::1734886565::1735128546::1::::<><>::
+::res://design/lore/village/Farm/Sprout Lands-Sprites-Basic pack/Objects/::1734886743
+Basic_Furniture.png::CompressedTexture2D::4627655397941031104::1734886565::1735128546::1::::<><>::
+Basic_Grass_Biom_things.png::CompressedTexture2D::1446415607318741672::1734886565::1735128546::1::::<><>::
+Basic_Plants.png::CompressedTexture2D::5977827572994342584::1734886565::1735128546::1::::<><>::
+Basic_tools_and_meterials.png::CompressedTexture2D::3437689258634423612::1734886565::1735128546::1::::<><>::
+Chest.png::CompressedTexture2D::3142903158816353100::1734886565::1735128546::1::::<><>::
+Egg_item.png::CompressedTexture2D::9041620973601271465::1734886565::1735128546::1::::<><>::
+Free_Chicken_House.png::CompressedTexture2D::1057336460371382304::1734886565::1735128546::1::::<><>::
+Paths.png::CompressedTexture2D::5795564974757358254::1734886565::1735128546::1::::<><>::
+Simple_Milk_and_grass_item.png::CompressedTexture2D::5147998630168333957::1734886565::1735128546::1::::<><>::
+Wood_Bridge.png::CompressedTexture2D::1174299517345330462::1734886565::1735128546::1::::<><>::
+::res://design/lore/village/Farm/Sprout Lands-Sprites-Basic pack/selected_sprite/::1734886743
+Basic_tools_and_meterials0.png::CompressedTexture2D::3914368786014447489::1734886565::1735128546::1::::<><>::
+Basic_tools_and_meterials1.png::CompressedTexture2D::3484792369598902260::1734886565::1735128546::1::::<><>::
+Basic_tools_and_meterials2.png::CompressedTexture2D::5970971837015075750::1734886565::1735128546::1::::<><>::
+Basic_tools_and_meterials3.png::CompressedTexture2D::6015232123515890994::1734886565::1735128546::1::::<><>::
+Basic_tools_and_meterials4.png::CompressedTexture2D::7765726150805570225::1734886565::1735128546::1::::<><>::
+Basic_tools_and_meterials5.png::CompressedTexture2D::8259369806396935950::1734886565::1735128546::1::::<><>::
+Basic_tools_and_meterials6.png::CompressedTexture2D::7648758329401705209::1734886565::1735128547::1::::<><>::
+::res://design/lore/village/Farm/Sprout Lands-Sprites-Basic pack/Sprout Lands color pallet/::1734886743
+Sprout Lands defautlt palette snip.PNG::CompressedTexture2D::1207326542592333722::1734886565::1735128547::1::::<><>::
+Sprout Lands defautlt palette.png::CompressedTexture2D::3945389494608045958::1734886565::1735128547::1::::<><>::
+::res://design/lore/village/Farm/Sprout Lands-Sprites-Basic pack/Tilesets/::1734886744
+Bitmask references 1.png::CompressedTexture2D::5321686755599664913::1734886565::1735128547::1::::<><>::
+Bitmask references 2.png::CompressedTexture2D::4122343844279441503::1734886565::1735128547::1::::<><>::
+Doors.png::CompressedTexture2D::2295565115322649216::1734886565::1735128547::1::::<><>::
+Fences.png::CompressedTexture2D::6649611122596541042::1734886565::1735128547::1::::<><>::
+Grass.png::CompressedTexture2D::8510107002276835500::1734886565::1735128547::1::::<><>::
+Hills.png::CompressedTexture2D::3368436431256931867::1734886565::1735128547::1::::<><>::
+Tilled_Dirt.png::CompressedTexture2D::6564727297908473351::1734886565::1735128547::1::::<><>::
+Tilled_Dirt_v2.png::CompressedTexture2D::5071612546749695079::1734886565::1735128547::1::::<><>::
+Tilled_Dirt_Wide.png::CompressedTexture2D::6226326431617006042::1734886565::1735128547::1::::<><>::
+Tilled_Dirt_Wide_v2.png::CompressedTexture2D::4732913830758594451::1734886565::1735128547::1::::<><>::
+Water.png::CompressedTexture2D::6722645205825444782::1734886565::1735128547::1::::<><>::
+Wooden_House_Roof_Tilset.png::CompressedTexture2D::5066725462946347022::1734886565::1735128547::1::::<><>::
+Wooden_House_Walls_Tilset.png::CompressedTexture2D::3893690225671919079::1734886565::1735128547::1::::<><>::
+::res://design/lore/village/Farm/tiled/::1734886565
+::res://design/lore/village/Farm/tiled/export/::1734886565
+farmmap.tscn::PackedScene::5986593424160295045::1734886565::0::1::::<><>::uid://duby7isqjj6rw::::res://design/art-style-section/references/PC Computer - Stardew Valley - Outdoors Spring.png<>uid://cr2xxtoifwwdx::::res://design/lore/village/Farm/Tiny Wonder Farm Free/tilemaps/spring farm tilemap.png
+::res://design/lore/village/Farm/Tiny Wonder Farm Free/::1734886565
+https butterymilk itch.txt::TextFile::-1::1734886565::0::1::::<><>::
+::res://design/lore/village/Farm/Tiny Wonder Farm Free/characters/::1734886565
+::res://design/lore/village/Farm/Tiny Wonder Farm Free/characters/main character/::1735126309
+portrait female.png::CompressedTexture2D::8848321898661274212::1734886565::1735128547::1::::<><>::
+portrait male.png::CompressedTexture2D::3746753783870844456::1734886565::1735128547::1::::<><>::
+walk and idle copie.png::CompressedTexture2D::7545085502263341747::1735126312::1735128547::1::::<><>::
+walk and idle.png::CompressedTexture2D::1999978532964416161::1734886565::1735128547::1::::<><>::
+::res://design/lore/village/Farm/Tiny Wonder Farm Free/characters/main character old/::1734886743
+portrait female.png::CompressedTexture2D::5038424836878338725::1734886565::1735128547::1::::<><>::
+portrait male.png::CompressedTexture2D::1535167147130408234::1734886565::1735128547::1::::<><>::
+walk and idle.png::CompressedTexture2D::5022095048733621600::1734886565::1735128547::1::::<><>::
+::res://design/lore/village/Farm/Tiny Wonder Farm Free/objects&items/::1734886743
+farm objects free.png::CompressedTexture2D::5327220069944817874::1734886565::1735128547::1::::<><>::
+fiver.png::CompressedTexture2D::8401295761155987070::1734886565::1735128547::1::::<><>::
+furniture free.png::CompressedTexture2D::1219849198066601099::1734886565::1735128547::1::::<><>::
+items free.png::CompressedTexture2D::6457873521348762001::1734886565::1735128547::1::::<><>::
+plants free.png::CompressedTexture2D::3873251045861537057::1734886565::1735128547::1::::<><>::
+rocktest.png::CompressedTexture2D::4830382671812847289::1734886565::1735128547::1::::<><>::
+::res://design/lore/village/Farm/Tiny Wonder Farm Free/tilemaps/::1734886743
+farm bridges free.png::CompressedTexture2D::4088473691310783698::1734886565::1735128547::1::::<><>::
+farm inside free.png::CompressedTexture2D::1870874858827630388::1734886565::1735128547::1::::<><>::
+spring farm tilemap2.png::CompressedTexture2D::3236927939747883729::1734886565::1735128547::1::::<><>::
+spring farm tilemap3.png::CompressedTexture2D::2765259314750162605::1734886565::1735128547::1::::<><>::
+spring farm tilemap.png::CompressedTexture2D::6023228492627777749::1734886565::1735128547::1::::<><>::
+spring farm tilemaporiginal.png::CompressedTexture2D::1000849792999207527::1734886565::1735128547::1::::<><>::
+tilemap4-pal.png::CompressedTexture2D::3539576262193360833::1734886565::1735128546::1::::<><>::
+::res://design/mechanics/::1734886565
+::res://design/UI/::1734886565
+::res://design/UI/selected/::1734886743
+ui_box0.png::CompressedTexture2D::2325855836380125744::1734886565::1735128546::1::::<><>::
+ui_box1.png::CompressedTexture2D::245112586996908579::1734886565::1735128546::1::::<><>::
+ui_box2.png::CompressedTexture2D::7183147398606059995::1734886565::1735128546::1::::<><>::
+::res://design/UI/selected/main-ui/::1735124018
+basic-ui-menu-design.png::CompressedTexture2D::6922182106060072400::1734886565::1735128547::1::::<><>::
+inventory.png::CompressedTexture2D::2559879398586174206::1734957876::1735128546::1::::<><>::
+inventory_delete_1.png::CompressedTexture2D::5828724704914625786::1735123868::1735128546::1::::<><>::
+inventory_delete_2.png::CompressedTexture2D::2023264505710671921::1735123887::1735128546::1::::<><>::
+inventory_delete_3.png::CompressedTexture2D::3572239642018784526::1735124009::1735128546::1::::<><>::
+::res://design/UI/selected/numbers/::1735041833
+number0.png::CompressedTexture2D::9158850061891515595::1734886565::1735128546::1::::<><>::
+number1.png::CompressedTexture2D::2718422012182126538::1734886565::1735128546::1::::<><>::
+number2.png::CompressedTexture2D::838534657922838288::1734886565::1735128546::1::::<><>::
+number3.png::CompressedTexture2D::8948389759197300289::1734886565::1735128546::1::::<><>::
+number4.png::CompressedTexture2D::4561565828173411711::1734886565::1735128546::1::::<><>::
+number5.png::CompressedTexture2D::8562419787799149812::1734886565::1735128546::1::::<><>::
+number6.png::CompressedTexture2D::8947281671598196108::1734886565::1735128546::1::::<><>::
+number7.png::CompressedTexture2D::1662583454176928874::1734886565::1735128546::1::::<><>::
+number8.png::CompressedTexture2D::1914252053373854821::1734886565::1735128546::1::::<><>::
+number9.png::CompressedTexture2D::7526211067306141590::1734886565::1735128546::1::::<><>::
+number10.png::CompressedTexture2D::2631867552038047833::1735041772::1735128546::1::::<><>::
+::res://design/UI/Sprout Lands - UI Pack - Basic pack/::1734886565
+read_me.txt::TextFile::-1::1734886565::0::1::::<><>::
+::res://design/UI/Sprout Lands - UI Pack - Basic pack/emojis-free/::1734886743
+Emoji_Spritesheet_Free.png::CompressedTexture2D::2949133233285971176::1734886565::1735128546::1::::<><>::
+speech_bubble_grey.png::CompressedTexture2D::649925441611710888::1734886565::1735128546::1::::<><>::
+::res://design/UI/Sprout Lands - UI Pack - Basic pack/emojis-free/emoji style ui/::1734886743
+Inventory_Blocks_Spritesheet.png::CompressedTexture2D::3844162253540520999::1734886565::1735128546::1::::<><>::
+inventory_example.png::CompressedTexture2D::9149540415697825981::1734886565::1735128546::1::::<><>::
+inventory_example_2.png::CompressedTexture2D::2817988525647185464::1734886565::1735128546::1::::<><>::
+inventory_example_with_slots.png::CompressedTexture2D::3358929066976847785::1734886565::1735128546::1::::<><>::
+inventory_example_with_slots_2.png::CompressedTexture2D::8228445585544057351::1734886565::1735128546::1::::<><>::
+Inventory_Herat_Spritesheet.png::CompressedTexture2D::2161809514927668026::1734886565::1735128546::1::::<><>::
+inventory_Light_example.png::CompressedTexture2D::3716570475609717115::1734886565::1735128546::1::::<><>::
+inventory_Light_example_2.png::CompressedTexture2D::4576326072521305251::1734886565::1735128546::1::::<><>::
+inventory_Light_example_with_slots.png::CompressedTexture2D::3793410648801423590::1734886565::1735128546::1::::<><>::
+Inventory_Light_example_with_slots_2.png::CompressedTexture2D::1469435878934509917::1734886565::1735128546::1::::<><>::
+Inventory_Light_Herat_Spritesheet.png::CompressedTexture2D::658305574898951842::1734886565::1735128546::1::::<><>::
+Inventory_Spritesheet.png::CompressedTexture2D::7460219204811350890::1734886565::1735128546::1::::<><>::
+::res://design/UI/Sprout Lands - UI Pack - Basic pack/emojis-free/emoji style ui/weather/::1734886743
+Weather_Icons_smal_freel.png::CompressedTexture2D::6989511597240641011::1734886565::1735128546::1::::<><>::
+Weather_UI_Free.png::CompressedTexture2D::5803984290669317569::1734886565::1735128546::1::::<><>::
+::res://design/UI/Sprout Lands - UI Pack - Basic pack/fonts/::1734886743
+pixel-letters-7-8x14-preview.png::CompressedTexture2D::1025842109451657688::1734886565::1735128546::1::::<><>::
+pixel-letters-7-8x14.png::CompressedTexture2D::7921292792366440437::1734886565::1735128546::1::::<><>::
+pixelFont-7-8x14-sproutLands.ttf::FontFile::7870297570075386766::1734886565::1735128546::1::::<><>::
+::res://design/UI/Sprout Lands - UI Pack - Basic pack/Sprite sheets/::1734886743
+Setting menu.png::CompressedTexture2D::1148966462980612678::1734886565::1735128546::1::::<><>::
+Sprite sheet for Basic Pack.png::CompressedTexture2D::5892862143304250415::1734886565::1735128546::1::::<><>::
+UI Big Play Button.png::CompressedTexture2D::7620120495177391415::1734886565::1735128546::1::::<><>::
+UI Settings Buttons.png::CompressedTexture2D::8159559655316798063::1734886565::1735128546::1::::<><>::
+::res://design/UI/Sprout Lands - UI Pack - Basic pack/Sprite sheets/buttons/::1734886743
+Small Square Buttons.png::CompressedTexture2D::2349840330323716058::1734886565::1735128546::1::::<><>::
+Square Buttons 19x26.png::CompressedTexture2D::4191322159456235311::1734886565::1735128546::1::::<><>::
+Square Buttons 26x19.png::CompressedTexture2D::4645385272906159560::1734886565::1735128546::1::::<><>::
+Square Buttons 26x26.png::CompressedTexture2D::1715760407557532565::1734886565::1735128546::1::::<><>::
+::res://design/UI/Sprout Lands - UI Pack - Basic pack/Sprite sheets/Dialouge UI/::1734886743
+dialog box big.png::CompressedTexture2D::5876037776345016314::1734886565::1735128546::1::::<><>::
+dialog box character finished talking click to continue indicator - spritesheet .png::CompressedTexture2D::8179225491385122054::1734886565::1735128546::1::::<><>::
+dialog box medium.png::CompressedTexture2D::7260339154209379404::1734886565::1735128546::1::::<><>::
+dialog box small.png::CompressedTexture2D::6003765928049248848::1734886565::1735128546::1::::<><>::
+dialog box.png::CompressedTexture2D::7921075302683896604::1734886565::1735128546::1::::<><>::
+Premade dialog box  big.png::CompressedTexture2D::3539219516135451426::1734886565::1735128546::1::::<><>::
+Premade dialog box medium.png::CompressedTexture2D::4717016693267591915::1734886565::1735128546::1::::<><>::
+Premade dialog box small.png::CompressedTexture2D::8051289816279887294::1734886565::1735128546::1::::<><>::
+::res://design/UI/Sprout Lands - UI Pack - Basic pack/Sprite sheets/Dialouge UI/Emotes/::1734886743
+Teemo Basic emote animations sprite sheet.png::CompressedTexture2D::3282651656933507785::1734886565::1735128546::1::::<><>::
+::res://design/UI/Sprout Lands - UI Pack - Basic pack/Sprite sheets/Icons/::1734886743
+All Icons.png::CompressedTexture2D::7926148137652733870::1734886565::1735128546::1::::<><>::
+white icons.png::CompressedTexture2D::2721518145951600255::1734886565::1735128546::1::::<><>::
+::res://design/UI/Sprout Lands - UI Pack - Basic pack/Sprite sheets/Icons/special icons/::1734886743
+Small Happines-Sadness icons.png::CompressedTexture2D::8632044993705041584::1734886565::1735128546::1::::<><>::
+Special Icons.png::CompressedTexture2D::3489255281040397299::1734886565::1735128546::1::::<><>::
+::res://design/UI/Sprout Lands - UI Pack - Basic pack/Sprite sheets/Mouse sprites/::1734886743
+Catpaw holding Mouse icon.png::CompressedTexture2D::825659855105315039::1734886565::1735128546::1::::<><>::
+Catpaw Mouse icon.png::CompressedTexture2D::7389291903156909306::1734886565::1735128546::1::::<><>::
+Catpaw pointing Mouse icon.png::CompressedTexture2D::4518210013923667893::1734886565::1735128546::1::::<><>::
+Triangle Mouse icon 1.png::CompressedTexture2D::513255492404661092::1734886565::1735128546::1::::<><>::
+Triangle Mouse icon 2.png::CompressedTexture2D::8994628494684592890::1734886565::1735128546::1::::<><>::
+Triangle Mouse icon 3.png::CompressedTexture2D::4644907567950207569::1734886565::1735128546::1::::<><>::

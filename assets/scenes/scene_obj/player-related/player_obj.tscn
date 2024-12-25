@@ -1,7 +1,8 @@
-[gd_scene load_steps=15 format=3 uid="uid://c8qm5yf4cj5jy"]
+[gd_scene load_steps=20 format=3 uid="uid://c8qm5yf4cj5jy"]
 
 [ext_resource type="Script" path="res://assets/scr/player/scr_player_controller.gd" id="1_72ccn"]
 [ext_resource type="Texture2D" uid="uid://3q2mbq7gvbxh" path="res://design/lore/village/Farm/Tiny Wonder Farm Free/characters/main character/walk and idle.png" id="1_l4rmr"]
+[ext_resource type="SpriteFrames" uid="uid://crwk27i6hd5na" path="res://assets/ressources/sprite_ressources/sf_player_tool.tres" id="3_226f7"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lmty5"]
 size = Vector2(7, 9)
@@ -89,6 +90,96 @@ animations = [{
 "speed": 10.0
 }]
 
+[sub_resource type="Animation" id="Animation_wocgf"]
+resource_name = "axe_right"
+length = 0.34
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D2_tools:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.0333333, 0.333333),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(6, -3), Vector2(13, 6)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AnimatedSprite2D2_tools:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.0333333, 0.333333),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.988119, 2.32691]
+}
+
+[sub_resource type="Animation" id="Animation_lfp8x"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D2_tools:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(12, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AnimatedSprite2D2_tools:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [1.50411]
+}
+
+[sub_resource type="Animation" id="Animation_4krmc"]
+resource_name = "axe_left"
+length = 0.34
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D2_tools:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.333333),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(-10, -1.19209e-07), Vector2(-12, 8)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("AnimatedSprite2D2_tools:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.333333),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [1.50411, 0.540341]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_fu28k"]
+_data = {
+"RESET": SubResource("Animation_lfp8x"),
+"axe_left": SubResource("Animation_4krmc"),
+"axe_right": SubResource("Animation_wocgf")
+}
+
 [node name="Player_Obj" type="CharacterBody2D"]
 z_index = 8
 script = ExtResource("1_72ccn")
@@ -101,3 +192,17 @@ shape = SubResource("RectangleShape2D_lmty5")
 sprite_frames = SubResource("SpriteFrames_ijl81")
 animation = &"right"
 frame_progress = 0.944383
+flip_h = true
+
+[node name="AnimatedSprite2D2_tools" type="AnimatedSprite2D" parent="."]
+position = Vector2(12, 0)
+rotation = 1.50411
+sprite_frames = ExtResource("3_226f7")
+animation = &"axe"
+flip_h = true
+flip_v = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_fu28k")
+}

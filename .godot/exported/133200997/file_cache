@@ -1,14 +1,16 @@
-res://addons/fullscreen on input/fullscreen_on_input.tscn::c167851ec157efa0a799dc1f224b6acc::1733255588::res://.godot/exported/133200997/export-bf99152eb0e73197bab85dc2c767f15f-fullscreen_on_input.scn
-res://assets/ressources/tileset/tile_set_editable.tres::9fecbc4b29a2fe6aed4a70d754bf9fa5::1733488151::res://.godot/exported/133200997/export-67607501c9ffca61088b12713d4e245f-tile_set_editable.res
-res://assets/scenes/preloads/object/mining/nps_rock.tscn::bb064d5dd0f805ba4d789e18d6b48bb5::1733255588::res://.godot/exported/133200997/export-ce50fb739a1980a5ce3f0e7f1b0c1b1f-nps_rock.scn
-res://assets/scenes/preloads/object/nps_testobj1.tscn::cb55ac5abe25e7573b065a4c061504d3::1733255588::res://.godot/exported/133200997/export-16064362be0dd7238ef47cd5a3df41d4-nps_testobj1.scn
-res://assets/scenes/scene_gameplay/outside/sce_farm.tscn::afc776fcd580ad099006fafa6d0e0a2e::1733488163::res://.godot/exported/133200997/export-e3e3e140f795e81cddec967677cf3e2e-sce_farm.scn
-res://assets/scenes/scene_gameplay/testscene/testscene_1.tscn::178e68dd4596a065ad77cb7f03f2e17e::1733255588::res://.godot/exported/133200997/export-3d243c843d33aa3dc2096ea106a1d799-testscene_1.scn
-res://assets/scenes/scene_gameplay/UI/main_scene.tscn::09dc8f9a93c78e43ccf325e82ca254c9::1733255588::res://.godot/exported/133200997/export-95a9997e23104ea7b332ca4e4d968c26-main_scene.scn
-res://assets/scenes/scene_obj/objects/foraging/rock.tscn::db69ed4de54aec74949d139b2a8584f5::1733255588::res://.godot/exported/133200997/export-0a8b48b65460b2ecc15b2f45d637433c-rock.scn
-res://assets/scenes/scene_obj/objects/test-debug/testobj_1.tscn::e537023bd05a53ec17fa07ab538ddf9b::1733255588::res://.godot/exported/133200997/export-08d02b55160016fff64a53c9cacc0556-testobj_1.scn
-res://assets/scenes/scene_obj/player-related/player_obj.tscn::e1c46e05a98c53d4811eafc5216fd894::1733255588::res://.godot/exported/133200997/export-358d86cc181c1dbb4f17917201270893-player_obj.scn
-res://assets/scenes/scene_obj/UI/system/cursor.tscn::21b541eaad1018829c7f3cc3023c4202::1733255588::res://.godot/exported/133200997/export-4bf3808dbe1aac95f0670f1fd614c886-cursor.scn
-res://assets/scenes/scene_obj/UI/system/system_mouse.tscn::48a6d14e0a95d5a4250dd92a40d75027::1733255588::res://.godot/exported/133200997/export-c9abcb9731e02bf0dc615726e4a3bccc-system_mouse.scn
-res://assets/scenes/UI/control_main_ui_gameplay.tscn::3837ff67b9da60d664efa9c3d1aba60b::1733482086::res://.godot/exported/133200997/export-adbb21a73d95f9c3c90838b9aa893ee9-control_main_ui_gameplay.scn
-res://design/lore/village/Farm/tiled/export/farmmap.tscn::c683ae49c44da9c6a5b8e01d5ae718fc::1733255588::res://.godot/exported/133200997/export-64e9ae7e8c0798ea8a1645df58ff037f-farmmap.scn
+res://addons/fullscreen on input/fullscreen_on_input.tscn::c167851ec157efa0a799dc1f224b6acc::1734886565::res://.godot/exported/133200997/export-bf99152eb0e73197bab85dc2c767f15f-fullscreen_on_input.scn
+res://assets/ressources/tileset/tile_set_editable.tres::9fecbc4b29a2fe6aed4a70d754bf9fa5::1735128555::res://.godot/exported/133200997/export-67607501c9ffca61088b12713d4e245f-tile_set_editable.res
+res://assets/scenes/preloads/object/mining/nps_rock.tscn::bb064d5dd0f805ba4d789e18d6b48bb5::1734886565::res://.godot/exported/133200997/export-ce50fb739a1980a5ce3f0e7f1b0c1b1f-nps_rock.scn
+res://assets/scenes/preloads/object/nps_testobj1.tscn::cb55ac5abe25e7573b065a4c061504d3::1734886565::res://.godot/exported/133200997/export-16064362be0dd7238ef47cd5a3df41d4-nps_testobj1.scn
+res://assets/scenes/scene_gameplay/outside/sce_farm.tscn::675c77f9f0c9d56f94872446bb01be7f::1735128555::res://.godot/exported/133200997/export-e3e3e140f795e81cddec967677cf3e2e-sce_farm.scn
+res://assets/scenes/scene_gameplay/testscene/testscene_1.tscn::178e68dd4596a065ad77cb7f03f2e17e::1734886565::res://.godot/exported/133200997/export-3d243c843d33aa3dc2096ea106a1d799-testscene_1.scn
+res://assets/scenes/scene_gameplay/UI/main_scene.tscn::09dc8f9a93c78e43ccf325e82ca254c9::1734886565::res://.godot/exported/133200997/export-95a9997e23104ea7b332ca4e4d968c26-main_scene.scn
+res://assets/scenes/scene_obj/objects/foraging/rock.tscn::db69ed4de54aec74949d139b2a8584f5::1734886565::res://.godot/exported/133200997/export-0a8b48b65460b2ecc15b2f45d637433c-rock.scn
+res://assets/scenes/scene_obj/objects/test-debug/testobj_1.tscn::e537023bd05a53ec17fa07ab538ddf9b::1734886565::res://.godot/exported/133200997/export-08d02b55160016fff64a53c9cacc0556-testobj_1.scn
+res://assets/scenes/scene_obj/player-related/player_obj.tscn::59f71e3db0e2d213bb4e15e7002cea09::1735128328::res://.godot/exported/133200997/export-358d86cc181c1dbb4f17917201270893-player_obj.scn
+res://assets/scenes/scene_obj/UI/system/cursor.tscn::21b541eaad1018829c7f3cc3023c4202::1734886565::res://.godot/exported/133200997/export-4bf3808dbe1aac95f0670f1fd614c886-cursor.scn
+res://assets/scenes/scene_obj/UI/system/system_mouse.tscn::8d016bc49185a285132393c3f534846b::1734886565::res://.godot/exported/133200997/export-c9abcb9731e02bf0dc615726e4a3bccc-system_mouse.scn
+res://assets/scenes/UI/control_main_ui_gameplay.tscn::ace687c5dcd6c5a3f34e53dafba015af::1735125013::res://.godot/exported/133200997/export-adbb21a73d95f9c3c90838b9aa893ee9-control_main_ui_gameplay.scn
+res://design/lore/village/Farm/tiled/export/farmmap.tscn::c683ae49c44da9c6a5b8e01d5ae718fc::1734886565::res://.godot/exported/133200997/export-64e9ae7e8c0798ea8a1645df58ff037f-farmmap.scn
+res://assets/ressources/sprite_ressources/sf_player_tool.tres::fbe6079774fc203563090abb65bd3ffb::1735128555::res://.godot/exported/133200997/export-3e3e708b7e5e8cb8bb76dbdd7e1d62d6-sf_player_tool.res
+res://assets/scenes/editor/new_nodes/double_number_display.tscn::a09f004970209b913d2f20375a78bc46::1734986853::res://.godot/exported/133200997/export-ea0268294bddf1e900ef650a037e41fe-double_number_display.scn

@@ -17,7 +17,12 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
+	if auto_main_runtime.global_is_gameplay_on == false:
+		return
 	if index_position == auto_main_runtime.global_cursor_position:
-		if Input.get_action_raw_strength("player_left_click") >= 1:
-			queue_free()
+		if auto_utilities.get_distance(position,auto_main_runtime.global_player_position) <= 20:
+			print(auto_utilities.get_distance(position,auto_main_runtime.global_player_position))
+			if Input.get_action_raw_strength("player_left_click") >= 1:
+				if auto_main_runtime.current_player_item["type"] == "axe":
+					queue_free()
 	pass
